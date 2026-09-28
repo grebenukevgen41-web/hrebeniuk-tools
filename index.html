@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hrebeniuk Tools</title>
+<style>
+  :root { --bg:#f6f6f4; --fg:#1d1d1b; --muted:#6b6b66; --card:#fff; --line:#e3e3de; --accent:#2f6f4f; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161615; --fg:#ecece8; --muted:#a3a39c; --card:#20201e; --line:#33332f; --accent:#6fbf8f; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 28px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px 22px; margin-bottom:22px; }
+  .btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:11px 18px; border-radius:8px; font-weight:600; }
+  ol { padding-left:20px; margin:10px 0 0; } li { margin:4px 0; }
+  code { background:var(--line); padding:1px 5px; border-radius:4px; }
+  .list table { width:100%; border-collapse:collapse; font-size:14px; }
+  .list th, .list td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  .list a { color:var(--accent); }
+  .muted { color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hrebeniuk Tools</h1>
+  <p class="sub">Аддони для Blender з автооновленням</p>
+
+  <div class="card">
+    <a class="btn" href="%D0%92%D0%A1%D0%A2%D0%90%D0%9D%D0%9E%D0%92%D0%98%D0%A2%D0%98.bat" download>Завантажити ВСТАНОВИТИ.bat</a>
+    <ol>
+      <li>Закрий Blender.</li>
+      <li>Запусти <code>ВСТАНОВИТИ.bat</code> — він сам підключить цей репозиторій і поставить аддони. Старі ручні копії приберуться (резервна копія лишається).</li>
+      <li>Далі оновлення приходять самі при запуску Blender. У вкладці <b>Hrebeniuk</b> (N-панель) — кнопка «Оновити все».</li>
+    </ol>
+    <p class="muted">Якщо Windows попередить про невідомий файл — «Докладніше» → «Виконати все одно».
+    Щось пішло не так — <a href="%D0%9E%D0%9D%D0%9E%D0%92%D0%98%D0%A2%D0%98.bat" download>ОНОВИТИ.bat</a>.</p>
+  </div>
+
+  <div class="card list">
+    <p>Add-on</p>
+<hr>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Website</th>
+    <th>Blender Versions</th>
+    <th>Python Versions</th>
+    <th>Platforms</th>
+    <th>Size</th>
+  </tr>
+  <tr>
+    <td><tt><a href="./create_project_blender-1.0.1.zip?repository=.%2Findex.json&blender_version_min=4.2.0">create_project_blender-1.0.1</a></tt></td>
+    <td>Create Project</td>
+    <td>Project folders, texture collect and first save</td>
+    <td>~</td>
+    <td>4.2.0 - ~</td>
+    <td>all</td>
+    <td>all</td>
+    <td>4.3KB</td>
+  </tr>
+  <tr>
+    <td><tt><a href="./custom_frame_render-1.6.2.zip?repository=.%2Findex.json&blender_version_min=4.2.0">custom_frame_render-1.6.2</a></tt></td>
+    <td>Custom Frame Render</td>
+    <td>Render chosen frames with names from a table</td>
+    <td>~</td>
+    <td>4.2.0 - ~</td>
+    <td>all</td>
+    <td>all</td>
+    <td>8.5KB</td>
+  </tr>
+  <tr>
+    <td><tt><a href="./hrebeniuk_hub-1.1.0.zip?repository=.%2Findex.json&blender_version_min=4.2.0">hrebeniuk_hub-1.1.0</a></tt></td>
+    <td>Hrebeniuk Hub</td>
+    <td>All Hrebeniuk tools in one tab with auto-updates</td>
+    <td>~</td>
+    <td>4.2.0 - ~</td>
+    <td>all</td>
+    <td>all</td>
+    <td>6.0KB</td>
+  </tr>
+  <tr>
+    <td><tt><a href="./seam_shadow-3.39.0.zip?repository=.%2Findex.json&blender_version_min=4.2.0">seam_shadow-3.39.0</a></tt></td>
+    <td>Seam Shadow Painter</td>
+    <td>Fake seam shadows on fabric</td>
+    <td>~</td>
+    <td>4.2.0 - ~</td>
+    <td>all</td>
+    <td>all</td>
+    <td>31.3KB</td>
+  </tr>
+  <tr>
+    <td><tt><a href="./wirecolor_mask_addon-3.4.2.zip?repository=.%2Findex.json&blender_version_min=4.2.0">wirecolor_mask_addon-3.4.2</a></tt></td>
+    <td>WireColor Masks</td>
+    <td>Object, face and material ID masks</td>
+    <td>~</td>
+    <td>4.2.0 - ~</td>
+    <td>all</td>
+    <td>all</td>
+    <td>14.3KB</td>
+  </tr>
+</table>
+
+    <p class="muted">Оновлено: 2026-09-28, 22:40</p>
+  </div>
+</main>
+</body>
+</html>
