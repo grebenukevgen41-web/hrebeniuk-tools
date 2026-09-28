@@ -7,7 +7,7 @@
       "id": "create_project_blender",
       "name": "Create Project",
       "tagline": "Project folders, texture collect and first save",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -17,16 +17,16 @@
       "permissions": {
         "files": "Create project folders and copy textures"
       },
-      "archive_url": "./create_project_blender-1.0.1.zip",
-      "archive_size": 4353,
-      "archive_hash": "sha256:12c9f10bb97d52157c389e67c4896ca5f54ef7447f176b250089034cde3d067b"
+      "archive_url": "./create_project_blender-1.0.2.zip",
+      "archive_size": 4452,
+      "archive_hash": "sha256:f103bcf5b2bc628bafa25d66eddd2bb1557dec9e9646bbd92a370271d1a28aa2"
     },
     {
       "schema_version": "1.0.0",
       "id": "custom_frame_render",
       "name": "Custom Frame Render",
       "tagline": "Render chosen frames with names from a table",
-      "version": "1.6.2",
+      "version": "1.6.3",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -37,16 +37,16 @@
         "files": "Save rendered images",
         "network": "Read frame names from Google Sheets"
       },
-      "archive_url": "./custom_frame_render-1.6.2.zip",
-      "archive_size": 8727,
-      "archive_hash": "sha256:0261dd6724c8243066195cfdef0f77115e6de78c2c607685f52fdc90cdb65dbb"
+      "archive_url": "./custom_frame_render-1.6.3.zip",
+      "archive_size": 8801,
+      "archive_hash": "sha256:832d0e499b04d2fc6e714ddad3b163afce889a777634751b2e95fc994984c422"
     },
     {
       "schema_version": "1.0.0",
       "id": "hrebeniuk_hub",
       "name": "Hrebeniuk Hub",
       "tagline": "All Hrebeniuk tools in one tab with auto-updates",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -56,16 +56,16 @@
       "permissions": {
         "files": "Back up and remove old manual copies of these add-ons"
       },
-      "archive_url": "./hrebeniuk_hub-1.1.1.zip",
-      "archive_size": 6215,
-      "archive_hash": "sha256:f53c9fb434f3980590066f280bf476f5912b4483b44ed3b58ff0ad017719f39b"
+      "archive_url": "./hrebeniuk_hub-1.1.2.zip",
+      "archive_size": 6281,
+      "archive_hash": "sha256:ae9339d5cf3bd9f619b5d9a10bfba2a30729ac084ec51fe72e4425404a318c6c"
     },
     {
       "schema_version": "1.0.0",
       "id": "seam_shadow",
       "name": "Seam Shadow Painter",
       "tagline": "Fake seam shadows on fabric",
-      "version": "3.39.0",
+      "version": "3.39.1",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -75,16 +75,16 @@
       "permissions": {
         "files": "Save and load seam presets next to the blend file"
       },
-      "archive_url": "./seam_shadow-3.39.0.zip",
-      "archive_size": 32088,
-      "archive_hash": "sha256:f648058d07331f3461d81c5d98ed222e9257db22993a58b403acfe4d1d05ff17"
+      "archive_url": "./seam_shadow-3.39.1.zip",
+      "archive_size": 32182,
+      "archive_hash": "sha256:86fedb46dd8713c192b96980a90ada8e968b10291c4f0357010dedb54fa98db6"
     },
     {
       "schema_version": "1.0.0",
       "id": "wirecolor_mask_addon",
       "name": "WireColor Masks",
       "tagline": "Object, face and material ID masks",
-      "version": "3.4.2",
+      "version": "3.4.3",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -94,9 +94,9 @@
       "permissions": {
         "files": "Save rendered mask images"
       },
-      "archive_url": "./wirecolor_mask_addon-3.4.2.zip",
-      "archive_size": 14630,
-      "archive_hash": "sha256:8c91b149c7bafca267e900d7c54a48e8d8a1bd7ce34f43b0708db4b586ef5c9b"
+      "archive_url": "./wirecolor_mask_addon-3.4.3.zip",
+      "archive_size": 14716,
+      "archive_hash": "sha256:5daf3d32c50e1e102a985c6b7634148ca6fe04a8b4c15e653039e89a608d8d66"
     }
   ]
 }
