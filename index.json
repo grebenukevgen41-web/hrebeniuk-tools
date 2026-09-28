@@ -46,7 +46,7 @@
       "id": "hrebeniuk_hub",
       "name": "Hrebeniuk Hub",
       "tagline": "All Hrebeniuk tools in one tab with auto-updates",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -56,9 +56,9 @@
       "permissions": {
         "files": "Back up and remove old manual copies of these add-ons"
       },
-      "archive_url": "./hrebeniuk_hub-1.1.0.zip",
-      "archive_size": 6138,
-      "archive_hash": "sha256:9b400959779db728f50bb6f0e557689191fcd4f7f3e083821dd104210c3a4d51"
+      "archive_url": "./hrebeniuk_hub-1.1.1.zip",
+      "archive_size": 6215,
+      "archive_hash": "sha256:f53c9fb434f3980590066f280bf476f5912b4483b44ed3b58ff0ad017719f39b"
     },
     {
       "schema_version": "1.0.0",
