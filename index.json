@@ -84,7 +84,7 @@
       "id": "wirecolor_mask_addon",
       "name": "WireColor Masks",
       "tagline": "Object, face and material ID masks",
-      "version": "3.5.2",
+      "version": "3.5.3",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -94,9 +94,9 @@
       "permissions": {
         "files": "Save rendered mask images"
       },
-      "archive_url": "./wirecolor_mask_addon-3.5.2.zip",
-      "archive_size": 11608,
-      "archive_hash": "sha256:0e2cbfcd151f8ee3093f3652ccbf806bcba582c337f445bcb0ba64d17f510d21"
+      "archive_url": "./wirecolor_mask_addon-3.5.3.zip",
+      "archive_size": 11752,
+      "archive_hash": "sha256:d4c99f8404afc81d1a321f9c6a758ea6a427913527c52a238c3b3e3b1bbf4825"
     }
   ]
 }
