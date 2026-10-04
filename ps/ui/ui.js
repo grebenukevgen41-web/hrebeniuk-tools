@@ -37,8 +37,9 @@ function clearStatus() { setTimeout(function () { setStatus('\u2014', ''); }, 40
 function withButton(btnId, fn) {
   return async function () {
     var btn = document.getElementById(btnId);
-    if (btn) btn.disabled = true;
-    try { await fn(); } finally { if (btn) btn.disabled = false; }
+    if (btn && / busy/.test(btn.className)) return;           // уже виконується
+    if (btn) btn.className += ' busy';
+    try { await fn(); } finally { if (btn) btn.className = btn.className.replace(/ busy/g, ''); }
   };
 }
 
@@ -558,7 +559,7 @@ function renderMaskPalette() {
   }
   var row = document.createElement('div');
   row.className = 'pm-row';
-  var done = document.createElement('button');
+  var done = document.createElement('div');
   done.className = 'btn b-launch';
   done.textContent = 'Готово';
   done.title = 'Завершити вибір: сховати ID-маску, повернутись на коригувальний шар';
@@ -653,8 +654,12 @@ async function handlePickMask() {
 }
 
 // ── Button wiring ────────────────────────────────────────────
-document.getElementById('chkRename').addEventListener('change', function (e) {
-  document.getElementById('renameFields').style.display = e.target.checked ? 'flex' : 'none';
+function syncRename() {
+  document.getElementById('renameFields').style.display = document.getElementById('chkRename').checked ? 'flex' : 'none';
+}
+document.getElementById('chkRename').addEventListener('change', syncRename);
+document.getElementById('chkRenameText').addEventListener('click', function () {
+  var c = document.getElementById('chkRename'); c.checked = !c.checked; syncRename();
 });
 document.getElementById('btnLoad').addEventListener('click', withButton('btnLoad', handleLoadImages));
 document.getElementById('btnReplace').addEventListener('click', withButton('btnReplace', handleReplaceRenders));

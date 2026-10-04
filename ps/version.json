@@ -1,7 +1,7 @@
 {
- "version": "7.2",
- "date": "2026-10-04 23:55",
- "notes": "Виправлено оновлення панелі (помилка «Folder with source name is already present»).",
+ "version": "7.3",
+ "date": "2026-10-05 00:00",
+ "notes": "Панель однакова на всіх ПК: кольорові кнопки, галочка «Перейменувати» не наїжджає на Update Masks.",
  "shell_version": "7.0",
  "files": [
   {
@@ -36,21 +36,21 @@
   },
   {
    "path": "ui/ui.html",
-   "size": 5554,
-   "fnv": "c8add92d",
-   "sha256": "7dbac77423130b76e576bb9ff149f212037ad1fc7f94fb388d18327a40b8bdb6"
+   "size": 5883,
+   "fnv": "4bb2f85e",
+   "sha256": "00310a68b99fa8378cbb5b17aacb9157590536200f1757fa977bde8b5a6f0bf8"
   },
   {
    "path": "ui/ui.js",
-   "size": 38879,
-   "fnv": "f918279d",
-   "sha256": "379f77eaab8a981fd55fb16062646e9d4a67563262ce1cb50a1cb2bfbce3f5f6"
+   "size": 39226,
+   "fnv": "2ebaba3a",
+   "sha256": "da253083d32d0702d03c5867ade5a29dc4e0185094a3f70d008af7c7949c73ab"
   },
   {
    "path": "ui/ui_version.txt",
    "size": 3,
-   "fnv": "16f4724e",
-   "sha256": "18ed019486eb7ba1b2425746065deabe63e79e59d907ff99c5e82f1ee6ef3d58"
+   "fnv": "17f473e1",
+   "sha256": "3dcfb00c29b15a402da6c2ca2308157ba64ba500d09e8654328458c98c4b65e1"
   }
  ]
 }

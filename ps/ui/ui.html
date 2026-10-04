@@ -2,18 +2,21 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #2b2b2b; font-family: 'Segoe UI', sans-serif; padding: 8px; }
   .btn {
-    display: block; width: 100%; padding: 8px 0;
-    border: none; border-radius: 3px;
-    font-size: 11px; font-weight: bold;
+    display: block; width: 100%; padding: 8px 4px;
+    border: none; border-radius: 3px; text-align: center;
+    font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: 600; line-height: 14px;
     cursor: pointer; margin-bottom: 5px; color: #fff;
   }
+  .btn.busy { opacity: 0.5; }
   .b-load    { background: #b85c00; }
   .b-load:hover    { background: #d46a00; }
   .b-replace { background: #4a148c; }
   .b-replace:hover { background: #6a1b9a; }
   .b-masks   { background: #00695c; }
   .b-masks:hover   { background: #00897b; }
-  .rename-toggle { display: block; margin: -2px 0 4px 0; }
+  .rename-toggle { display: flex; flex-direction: row; align-items: center; margin: 0 0 5px 0; }
+  .rename-toggle input { flex: 0 0 auto; margin: 0 5px 0 0; }
+  .rename-text { flex: 1 1 auto; font-size: 10px; line-height: 13px; color: #ccc; cursor: pointer; }
   .rename-fields {
     display: none; gap: 4px; margin-bottom: 5px;
   }
@@ -49,24 +52,24 @@
   .upd:hover { background: #fbc02d; }
   .pm-palette .pm-x { font-size: 10px; color: #aaa; cursor: pointer; float: right; }
 </style>
-<button class="btn b-load"    id="btnLoad">Load Images</button>
-<button class="btn b-replace" id="btnReplace">Replace Renders</button>
-<sp-checkbox id="chkRename" class="rename-toggle">Перейменувати шари/групи (Find→Replace)</sp-checkbox>
+<div class="btn b-load"    id="btnLoad">Load Images</div>
+<div class="btn b-replace" id="btnReplace">Replace Renders</div>
+<div class="rename-toggle"><input type="checkbox" id="chkRename"><div class="rename-text" id="chkRenameText">Перейменувати шари/групи (Find→Replace)</div></div>
 <div class="rename-fields" id="renameFields">
   <input type="text" id="txtFind" placeholder="Знайти, напр. Natural">
   <input type="text" id="txtReplace" placeholder="Замінити, напр. Oak">
 </div>
-<button class="btn b-masks"   id="btnMasks">Update Masks</button>
+<div class="btn b-masks"   id="btnMasks">Update Masks</div>
 <div class="pm-title">Маски деталей</div>
 <div class="pm-opts">
   <span title="Наскільки колір пікселя ID-маски може відрізнятися від кольору деталі, щоб потрапити в маску. Працює на краях деталі: 0 — тільки точний колір (рваний край), 12 — м'який край (типово), 30+ — ширше, але може зачепити сусідню деталь. Край також пом'якшується на 0.7 px">Допуск кольору (край маски)</span>
   <input type="text" id="pmFuzz" value="12" title="0–200. Ореол по краю деталі — збільш до 20–30. Залазить на сусідню деталь — зменш до 5–8">
 </div>
 <div class="pm-hint">0 — точний колір, 12 — м'який край, 30+ — ширше</div>
-<button class="btn b-pm" id="btnPmShow" title="Показує ID-маску групи, робить її активною і вмикає піпетку. Клацни піпеткою по деталі на моделі (або по кольору в палітрі нижче) — маска одразу ляже на коригувальний шар. Маска ляже на шар, на якому стоїш (корекція, шар або група). Клік піпеткою — тільки ця деталь, Shift+клік — додати, Alt+клік — прибрати. Ще раз «Вибір маски» — наступна ID-маска групи. «Готово» — завершити">Вибір маски</button>
+<div class="btn b-pm" id="btnPmShow" title="Показує ID-маску групи, робить її активною і вмикає піпетку. Клацни піпеткою по деталі на моделі (або по кольору в палітрі нижче) — маска одразу ляже на коригувальний шар. Маска ляже на шар, на якому стоїш (корекція, шар або група). Клік піпеткою — тільки ця деталь, Shift+клік — додати, Alt+клік — прибрати. Ще раз «Вибір маски» — наступна ID-маска групи. «Готово» — завершити">Вибір маски</div>
 <div id="pmPalette" class="pm-palette" style="display:none;"></div>
-<button class="btn b-pm" id="btnPmApply" title="Прив'язані шари цієї групи → на інші групи. Маска будується з ID-маски кожної групи. Нема кольору — шар з порожньою маскою ⚠">Перенос на інші групи</button>
-<button class="btn b-launch"  id="btnBatch">&#9654; Batch Export v5</button>
+<div class="btn b-pm" id="btnPmApply" title="Прив'язані шари цієї групи → на інші групи. Маска будується з ID-маски кожної групи. Нема кольору — шар з порожньою маскою ⚠">Перенос на інші групи</div>
+<div class="btn b-launch"  id="btnBatch">&#9654; Batch Export v5</div>
 <div class="status" id="status">&#8212;</div>
 <div class="upd" id="updBox" style="display:none;"></div>
 <div id="verLabel" style="font-size:9px;color:#555;text-align:right;margin-top:3px;cursor:pointer;" title="Клацни — перевірити оновлення"></div>
