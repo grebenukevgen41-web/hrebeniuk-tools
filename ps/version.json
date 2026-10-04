@@ -1,7 +1,7 @@
 {
- "version": "7.1",
- "date": "2026-10-04 23:41",
- "notes": "Виправлено вигляд панелі: без емодзі-квадратиків, галочка «Перейменувати» поруч із підписом.",
+ "version": "7.2",
+ "date": "2026-10-04 23:55",
+ "notes": "Виправлено оновлення панелі (помилка «Folder with source name is already present»).",
  "shell_version": "7.0",
  "files": [
   {
@@ -42,15 +42,15 @@
   },
   {
    "path": "ui/ui.js",
-   "size": 38776,
-   "fnv": "f19f1cc6",
-   "sha256": "eb539e386222f8d02f4941c9359aa1e5fef8a7fb039b4ad0562d57f97bc8f4de"
+   "size": 38879,
+   "fnv": "f918279d",
+   "sha256": "379f77eaab8a981fd55fb16062646e9d4a67563262ce1cb50a1cb2bfbce3f5f6"
   },
   {
    "path": "ui/ui_version.txt",
    "size": 3,
-   "fnv": "15f470bb",
-   "sha256": "772444a00dc21159ebfb1b6487a9a00977d12a9da5bdcb06a872f0faa9cc0a95"
+   "fnv": "16f4724e",
+   "sha256": "18ed019486eb7ba1b2425746065deabe63e79e59d907ff99c5e82f1ee6ef3d58"
   }
  ]
 }

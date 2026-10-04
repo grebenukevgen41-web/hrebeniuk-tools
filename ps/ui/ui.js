@@ -755,15 +755,6 @@ async function installScripts() {
     await f.write(bytes.buffer, { format: uxp.storage.formats.binary });
     names.push(name);
   }
-  // нова панель: у папку даних (рамка підхопить її при наступному відкритті панелі)
-  if (uiFiles.length) {
-    var ud;
-    try { ud = await df.getEntry('ui_new'); } catch (_) { ud = await df.createFolder('ui_new'); }
-    for (var u = 0; u < uiFiles.length; u++) {
-      var uf = await ud.createFile(uiFiles[u].name, { overwrite: true });
-      await uf.write(uiFiles[u].bytes.buffer, { format: uxp.storage.formats.binary });
-    }
-  }
   // копіювання в %APPDATA%\HrebeniukTools\jsx робить JSX (панель туди сама писати не може); стару версію — в _backup
   var src = dir.nativePath.replace(/\\/g, '/');
   var res = (df.nativePath + '/upd_result.txt').replace(/\\/g, '/');
@@ -788,10 +779,16 @@ async function installScripts() {
   var vf = await df.createFile('scripts_version.txt', { overwrite: true });
   await vf.write(updRemote.version);
   if (uiFiles.length) {
-    // ui_new → ui (заміна цілою папкою: наполовину записана панель не запуститься)
-    try { var oldUi = await df.getEntry('ui'); await oldUi.delete(); } catch (_) {}
-    var nu = await df.getEntry('ui_new');
-    await nu.moveTo(df, { newName: 'ui' });
+    // нова панель — у папку даних, файли перезаписуються на місці (непорожню папку UXP не видаляє і не замінює).
+    // ui_version.txt — ОСТАННІМ: поки його нема/старий, рамка бере вбудовану панель, тож обірваний запис не зламає її.
+    var ud;
+    try { ud = await df.getEntry('ui'); } catch (_) { ud = await df.createFolder('ui'); }
+    uiFiles.sort(function (a, b) { return (a.name === 'ui_version.txt') - (b.name === 'ui_version.txt'); });
+    try { var oldV = await ud.getEntry('ui_version.txt'); await oldV.delete(); } catch (_) {}
+    for (var u = 0; u < uiFiles.length; u++) {
+      var uf = await ud.createFile(uiFiles[u].name, { overwrite: true });
+      await uf.write(uiFiles[u].bytes.buffer, { format: uxp.storage.formats.binary });
+    }
   }
   updShow('', '');
   showVersion(updRemote.version);
