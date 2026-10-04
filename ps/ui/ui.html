@@ -1,0 +1,78 @@
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #2b2b2b; font-family: 'Segoe UI', sans-serif; padding: 8px; }
+  .btn {
+    display: block; width: 100%; padding: 8px 0;
+    border: none; border-radius: 3px;
+    font-size: 11px; font-weight: bold;
+    cursor: pointer; margin-bottom: 5px; color: #fff;
+  }
+  .b-load    { background: #b85c00; }
+  .b-load:hover    { background: #d46a00; }
+  .b-replace { background: #4a148c; }
+  .b-replace:hover { background: #6a1b9a; }
+  .b-masks   { background: #00695c; }
+  .b-masks:hover   { background: #00897b; }
+  .rename-toggle {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 10px; color: #ccc; margin: -1px 0 5px 2px;
+    cursor: pointer;
+  }
+  .rename-fields {
+    display: none; gap: 4px; margin-bottom: 5px;
+  }
+  .rename-fields input {
+    width: 50%; font-size: 10px; padding: 3px 4px;
+    background: #1e1e1e; color: #eee; border: 1px solid #444; border-radius: 2px;
+  }
+  .b-launch  { background: #2e7d32; }
+  .b-launch:hover  { background: #388e3c; }
+  .status {
+    font-size: 11px; color: #aaa; text-align: left;
+    margin-top: 4px; word-break: break-all;
+    min-height: 14px;
+  }
+  .ok  { color: #66bb6a; }
+  .err { color: #ef5350; }
+  .pm-title { font-size: 10px; color: #888; margin: 8px 0 4px 2px; border-top: 1px solid #3a3a3a; padding-top: 6px; }
+  .pm-row { display: flex; gap: 4px; margin-bottom: 5px; }
+  .pm-row .btn { margin-bottom: 0; }
+  .b-pm { background: #1565c0; }
+  .b-pm:hover { background: #1e88e5; }
+  .pm-opts { display: flex; align-items: center; gap: 4px; font-size: 10px; color: #ccc; margin-bottom: 5px; }
+  .pm-opts select, .pm-opts input { font-size: 10px; background: #1e1e1e; color: #eee; border: 1px solid #444; }
+  .pm-opts input { width: 34px; padding: 2px 3px; }
+  .pm-hint { font-size: 9px; color: #777; margin: -3px 0 5px 2px; }
+  .pm-palette { background: #1e1e1e; border: 1px solid #444; border-radius: 3px; padding: 5px; margin-bottom: 5px; }
+  .pm-palette .pm-msg { font-size: 10px; color: #ccc; margin-bottom: 4px; }
+  .pm-palette .pm-sw { display: inline-block; width: 22px; height: 22px; margin: 0 3px 3px 0; border: 1px solid #555; border-radius: 2px; cursor: pointer; }
+  .pm-palette .pm-sw:hover { border-color: #fff; }
+  .pm-palette .pm-sw.on { border: 2px solid #fff; box-shadow: 0 0 0 1px #1e88e5; }
+  .upd { background: #f9a825; color: #1e1e1e; font-size: 11px; font-weight: bold; text-align: center;
+         padding: 6px 4px; border-radius: 3px; margin-top: 5px; cursor: pointer; }
+  .upd:hover { background: #fbc02d; }
+  .pm-palette .pm-x { font-size: 10px; color: #aaa; cursor: pointer; float: right; }
+</style>
+<button class="btn b-load"    id="btnLoad">Load Images</button>
+<button class="btn b-replace" id="btnReplace">Replace Renders</button>
+<label class="rename-toggle">
+  <input type="checkbox" id="chkRename"> Перейменувати шари/групи (Find→Replace)
+</label>
+<div class="rename-fields" id="renameFields">
+  <input type="text" id="txtFind" placeholder="Знайти, напр. Natural">
+  <input type="text" id="txtReplace" placeholder="Замінити, напр. Oak">
+</div>
+<button class="btn b-masks"   id="btnMasks">Update Masks</button>
+<div class="pm-title">Маски деталей</div>
+<div class="pm-opts">
+  <span title="Наскільки колір пікселя ID-маски може відрізнятися від кольору деталі, щоб потрапити в маску. Працює на краях деталі: 0 — тільки точний колір (рваний край), 12 — м'який край (типово), 30+ — ширше, але може зачепити сусідню деталь. Край також пом'якшується на 0.7 px">Допуск кольору (край маски)</span>
+  <input type="text" id="pmFuzz" value="12" title="0–200. Ореол по краю деталі — збільш до 20–30. Залазить на сусідню деталь — зменш до 5–8">
+</div>
+<div class="pm-hint">0 — точний колір, 12 — м'який край, 30+ — ширше</div>
+<button class="btn b-pm" id="btnPmShow" title="Показує ID-маску групи, робить її активною і вмикає піпетку. Клацни піпеткою по деталі на моделі (або по кольору в палітрі нижче) — маска одразу ляже на коригувальний шар. Маска ляже на шар, на якому стоїш (корекція, шар або група). Клік піпеткою — тільки ця деталь, Shift+клік — додати, Alt+клік — прибрати. Ще раз «Вибір маски» — наступна ID-маска групи. «Готово» — завершити">&#128065; Вибір маски</button>
+<div id="pmPalette" class="pm-palette" style="display:none;"></div>
+<button class="btn b-pm" id="btnPmApply" title="Прив'язані шари цієї групи → на інші групи. Маска будується з ID-маски кожної групи. Нема кольору — шар з порожньою маскою ⚠">&#128228; Перенос на інші групи</button>
+<button class="btn b-launch"  id="btnBatch">&#9654; Batch Export v5</button>
+<div class="status" id="status">&#8212;</div>
+<div class="upd" id="updBox" style="display:none;"></div>
+<div id="verLabel" style="font-size:9px;color:#555;text-align:right;margin-top:3px;cursor:pointer;" title="Клацни — перевірити оновлення"></div>

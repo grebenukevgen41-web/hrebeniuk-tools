@@ -1,0 +1,56 @@
+{
+ "version": "7.0",
+ "date": "2026-10-04 23:31",
+ "notes": "Автооновлення: панель і скрипти оновлюються кнопкою «Оновити». Update Masks для всіх кольорів, перенос папок корекцій, швидше визначення деталей, один Ctrl+Z.",
+ "shell_version": "7.0",
+ "files": [
+  {
+   "path": "jsx/load_images.jsx",
+   "size": 7956,
+   "fnv": "a09c31f5",
+   "sha256": "bd2c5784871dc4f8669a1982c0f9afd34f680b53be0a2fc19e3425ecb73dde3e"
+  },
+  {
+   "path": "jsx/replace_renders.jsx",
+   "size": 17566,
+   "fnv": "75be7825",
+   "sha256": "cb5dcdf1e219ba7747b077d86d897dcd3c94036eeb9a84e4d0ff2e9b4a322e71"
+  },
+  {
+   "path": "jsx/replace_masks.jsx",
+   "size": 24795,
+   "fnv": "967e884f",
+   "sha256": "021f42ff38788f82078c944cec65c4f96ab1da071b118a602bac722676a9eb13"
+  },
+  {
+   "path": "jsx/part_masks.jsx",
+   "size": 64567,
+   "fnv": "d9771aeb",
+   "sha256": "6322e779b93a3bba15a6ddaabc1f9004804bf1a13aa894cf438110b7027fe254"
+  },
+  {
+   "path": "jsx/mask_names.jsx",
+   "size": 3384,
+   "fnv": "d696d42f",
+   "sha256": "f54c86f585efd177c5ded3f23bcd17b95258c3a1b91025d1237470fc10e99c0b"
+  },
+  {
+   "path": "ui/ui.html",
+   "size": 5683,
+   "fnv": "9b97cd31",
+   "sha256": "55b26e08431676e90ad1ae59804e50dee3adeee92d1ea18e5de6220cd5789371"
+  },
+  {
+   "path": "ui/ui.js",
+   "size": 38778,
+   "fnv": "77c59676",
+   "sha256": "db5aa3b69cf799aec2e6152497f8f6cab6e23ca837187b6684195193e1ef9019"
+  },
+  {
+   "path": "ui/ui_version.txt",
+   "size": 3,
+   "fnv": "14f46f28",
+   "sha256": "0de7cf39e1e6366122309794e86d197d025a81235881e67ec4f011c9db2df252"
+  }
+ ]
+}
