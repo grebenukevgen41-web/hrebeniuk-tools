@@ -65,7 +65,7 @@
       "id": "seam_shadow",
       "name": "Seam Shadow Painter",
       "tagline": "Fake seam shadows on fabric",
-      "version": "3.39.2",
+      "version": "3.40.0",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -75,9 +75,9 @@
       "permissions": {
         "files": "Save and load seam presets next to the blend file"
       },
-      "archive_url": "./seam_shadow-3.39.2.zip",
-      "archive_size": 32182,
-      "archive_hash": "sha256:49bccfef83f0b19e5077612ab1b611d03b1ec63be4eff78ce6628d22e4fca9a2"
+      "archive_url": "./seam_shadow-3.40.0.zip",
+      "archive_size": 33090,
+      "archive_hash": "sha256:220b588ff81c9ff68fac6d496f376f79b0d9436816eeb6d980479f51b5c1cd41"
     },
     {
       "schema_version": "1.0.0",
