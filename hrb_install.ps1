@@ -11,6 +11,23 @@ function Find-Blender {
     $c = Get-ChildItem "C:\Program Files\Blender Foundation\Blender *\blender.exe" -ErrorAction SilentlyContinue |
          Sort-Object { [version](($_.Directory.Name -replace '[^\d.]', '') + '.0') } -Descending
     if ($c) { return $c[0].FullName }
+    # Steam: усі бібліотеки з libraryfolders.vdf
+    $steam = (Get-ItemProperty "HKCU:\Software\Valve\Steam" -ErrorAction SilentlyContinue).SteamPath
+    if ($steam) {
+        $libs = @($steam)
+        $vdf = Join-Path $steam "steamapps\libraryfolders.vdf"
+        if (Test-Path $vdf) { $libs += (Select-String -Path $vdf -Pattern '"path"\s+"(.+)"').Matches | ForEach-Object { $_.Groups[1].Value -replace '\\\\', '\' } }
+        foreach ($l in $libs) { $p = Join-Path $l "steamapps\common\Blender\blender.exe"; if (Test-Path $p) { return $p } }
+    }
+    # чим відкриваються .blend файли (портативний / нестандартна папка)
+    $prog = (Get-ItemProperty "Registry::HKEY_CLASSES_ROOT\.blend" -ErrorAction SilentlyContinue).'(default)'
+    if ($prog) {
+        $cmd = (Get-ItemProperty "Registry::HKEY_CLASSES_ROOT\$prog\shell\open\command" -ErrorAction SilentlyContinue).'(default)'
+        if ($cmd -match '^"?([^"]+?blender(-launcher)?\.exe)') {
+            $p = $Matches[1] -replace 'blender-launcher\.exe$', 'blender.exe'
+            if (Test-Path $p) { return $p }
+        }
+    }
     foreach ($p in "E:\Blender\blender.exe", "D:\Blender\blender.exe", "C:\Blender\blender.exe") { if (Test-Path $p) { return $p } }
     $p = (Read-Host "Не знайшов Blender. Перетягни сюди blender.exe і натисни Enter").Trim('"')
     if (Test-Path $p) { return $p }
