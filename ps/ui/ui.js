@@ -599,10 +599,46 @@ async function pmFinish() {
 
 // Піпетка: клік → основний колір (тільки ця деталь); Alt+клік → фоновий колір (прибрати);
 // Shift+клік → Photoshop ставить точку Color Sampler (додати)
+// Під час вибору користувач клацнув інший шар у Layers → маска переходить на нього (без «Готово»).
+// Свої ж перемикання скрипта відсіюються: через 0.35 с дивимось, який шар РЕАЛЬНО активний.
+var pmRetargetTimer = null;
+function pmScheduleRetarget() {
+  if (pmRetargetTimer) clearTimeout(pmRetargetTimer);
+  pmRetargetTimer = setTimeout(pmMaybeRetarget, 350);
+}
+async function pmMaybeRetarget() {
+  pmRetargetTimer = null;
+  if (!pmPicking || !pmInfo) return;
+  if (pmBusy) { pmScheduleRetarget(); return; }
+  var id = null;
+  try { var al = psApp.activeDocument.activeLayers; if (al && al.length === 1) id = al[0].id; } catch (_) {}
+  if (id === null || id == pmInfo.targetId || id == pmInfo.maskId) return;
+  pmBusy = true;
+  try {
+    await runPartMasks('retarget', '');
+    var st = await readPmState();
+    if (st.active) {
+      var moved = st.targetId != pmInfo.targetId;
+      pmInfo = st;
+      pmPalette = st.palette || pmPalette;
+      pmHexes = st.hexes || [];
+      renderMaskPalette();
+      if (st.msg) setStatus(st.msg, 'err');
+      else if (moved) setStatus('Маска → ' + st.targetName, 'ok');
+    }
+  } catch (e) { setStatus('ERR: ' + (e.message || e), 'err'); }
+  pmBusy = false;
+}
+
 function pmOnEvent(event, desc) {
-  if (!pmPicking || pmBusy) return;
+  if (!pmPicking) return;
   var t = '';
   try { t = JSON.stringify(desc || {}); } catch (_) {}
+  if (event === 'select') {                       // виділення шару (не інструмента)
+    if (t.indexOf('"layer"') !== -1 || t.indexOf('layerID') !== -1) pmScheduleRetarget();
+    return;
+  }
+  if (pmBusy) return;
   var hex = '';
   if (event === 'set' && t.indexOf('foregroundColor') !== -1) {
     try { hex = psApp.foregroundColor.rgb.hexValue; } catch (_) {}
@@ -614,7 +650,7 @@ function pmOnEvent(event, desc) {
     pmToggleHex('', 'add', true).then(pmRefocus, pmRefocus);
   }
 }
-try { psAction.addNotificationListener(['set', 'make'], pmOnEvent); } catch (e) { console.log('PM listener:', e); }
+try { psAction.addNotificationListener(['set', 'make', 'select'], pmOnEvent); } catch (e) { console.log('PM listener:', e); }
 
 // Повернути панель PS Tools на передній план (після Shift+клік Photoshop перемикає на Info)
 function pmRefocus() {

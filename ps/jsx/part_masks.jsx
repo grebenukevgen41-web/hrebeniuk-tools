@@ -341,6 +341,15 @@ function soloVisible(layer) {
 // Color Range по шару-масці. true — якщо щось виділилось
 // Під час переносу (PM_CACHE) колір у конкретній масці шукається один раз:
 // групи одного ракурсу (різні кольори моделі) ділять ті самі маски.
+// Стара назва службових каналів (кеш, від якого відмовились) — прибираємо, якщо лишились у файлі
+var PMC = '__pmc_';
+function clearPickCache(doc) {
+    for (var i = doc.channels.length - 1; i >= 0; i--) {
+        var ch = doc.channels[i];
+        try { if (ch.kind != ChannelType.COMPONENT && ch.name.indexOf(PMC) == 0) ch.remove(); } catch (e) {}
+    }
+}
+
 function selectColor(doc, maskLayer, hex, fuzz) {
     if (!PM_CACHE || PM_HELP) return selectColorRaw(doc, maskLayer, hex, fuzz);   // допоміжні документи самі тримають готові виділення
     var key = 'c|' + maskLayer.id + '|' + hex + '|' + fuzz;
@@ -609,7 +618,7 @@ function writeState(obj) {
     var parts = [];
     for (var k in obj) {
         var v = obj[k];
-        parts.push(jsonStr(k) + ':' + (typeof v == 'string' ? (v.charAt(0) == '[' ? v : jsonStr(v)) : String(v)));
+        parts.push(jsonStr(k) + ':' + (v instanceof Array ? arr(v) : typeof v == 'string' ? (v.charAt(0) == '[' ? v : jsonStr(v)) : String(v)));
     }
     var f = new File(statePath());
     f.encoding = 'UTF-8'; f.open('w'); f.write('{' + parts.join(',') + '}'); f.close();
@@ -668,8 +677,22 @@ function maskPalette(doc, mask) {
     return res;
 }
 
+function hasMaskOf(layer) { selectLayer(layer); return activeHasUserMask(); }
+
+// Користувач сам виділив інший шар під час вибору (не ціль і не показану ID-маску)
+function userSwitched(doc, st) {
+    var a = doc.activeLayer;
+    return a && a.id != st.targetId && a.id != st.maskId && !isMaskLayer(a);
+}
+
 function actPickStart(doc) {
     var st = readState(), group, target, idx, hexes = [];
+    if (!($.global.__PM_NEXT && st && st.docName == doc.name)) clearPickCache(doc);   // нова сесія — старий кеш геть
+    if ($.global.__PM_NEXT && st && st.docName == doc.name && userSwitched(doc, st)) {
+        // «Вибір маски» на іншому шарі — почати на ньому, без «Готово»
+        actRetarget(doc);
+        return;
+    }
     if ($.global.__PM_NEXT && st && st.docName == doc.name) {
         group = selectById(doc, st.groupId); target = selectById(doc, st.targetId);
         idx = st.index + 1; hexes = st.hexes || [];
@@ -756,6 +779,20 @@ function actBindHex(doc) {
     if (out.length == 0) {
         selectLayer(target);                           // деталей не лишилось → маску прибрати
         if (activeHasUserMask()) { var dd = new ActionDescriptor(); dd.putReference(cTID('null'), maskChanRef()); executeAction(cTID('Dlt '), dd, DialogModes.NO); }
+    } else if (out != hexes && mode == 'add' && hasMaskOf(target)) {
+        // Shift+клік: шукаємо лише нову деталь і додаємо до готової маски шару (шов закривається як і раніше).
+        // Час не залежить від кількості вже вибраних деталей.
+        var r = findMaskWithColor(doc, group, hex, PM_FUZZ, shown ? shown.name : null);
+        if (!r.mask) {
+            try { doc.selection.deselect(); } catch (e3) {}
+            msg = 'Колір #' + hex + ' не знайдено в ID-масках групи';
+            out = hexes;
+        } else {
+            selectLayer(target);
+            addMaskToSel();                            // + уже готова маска (з закритими швами)
+            closeGaps(PM_CLOSE);
+            setLayerMask(doc, target, true);
+        }
     } else if (out != hexes) {
         var n = selectHexesUnion(doc, group, out, shown ? shown.name : null);
         if (n == 0 || (mode != 'remove' && n < out.length && out.length > hexes.length)) {
@@ -774,10 +811,40 @@ function actBindHex(doc) {
                  count: st.count, palette: arr(st.palette || []), hexes: arr(out), msg: msg, shown: arr(st.shown || []) });
 }
 
+// Під час вибору виділено інший шар → маска тепер лягає на нього (без «Готово»).
+// Та сама група — лише нова ціль; інша група — показати її ID-маску. Без алертів: це просто клік по шару.
+function actRetarget(doc) {
+    var st = readState();
+    if (!st || !st.active || st.docName != doc.name) return;
+    var layer = doc.activeLayer;
+    if (!layer || layer.id == st.targetId || layer.id == st.maskId || isMaskLayer(layer)) return;
+    var group = containingGroup(layer);
+    if (!group) { st.msg = 'Шар не в групі рендера — маску не прив\'язано'; writeState(st); return; }
+    if (group.id == st.groupId) {
+        var mask = findById(doc.layers, st.maskId);
+        if (mask) { forceVisible(mask); selectLayer(mask); }
+        writeState({ active: true, docName: st.docName, groupId: st.groupId, targetId: layer.id, index: st.index,
+                     maskId: st.maskId, maskName: st.maskName, targetName: baseName(layer.name),
+                     count: st.count, palette: arr(st.palette || []), hexes: arr(tagHexes(layer.name)), shown: arr(st.shown || []),
+                     msg: '', switched: true });
+        return;
+    }
+    if (!maskCandidates(doc, group).length) { st.msg = 'Для групи "' + group.name + '" не знайдено ID-маску'; writeState(st); return; }
+    // інша група: прибрати показ старої, почати на новій
+    var c = maskCandidates(doc, findById(doc.layers, st.groupId) || group);
+    for (var i = 0; i < c.length; i++) if (c[i].visible) c[i].visible = false;
+    var sh = st.shown || [];
+    for (var k = 0; k < sh.length; k++) { var gl = findById(doc.layers, parseInt(sh[k], 10)); if (gl && gl.visible) gl.visible = false; }
+    selectLayer(layer);
+    $.global.__PM_NEXT = false;
+    actPickStart(doc);
+}
+
 // Готово: сховати маски, фокус на коригувальному шарі
 function actPickEnd(doc) {
     var st = readState();
     writeState({ active: false });
+    clearPickCache(doc);
     if (!st || st.docName != doc.name) return;
     var target = selectById(doc, st.targetId);
     var c = maskCandidates(doc, findById(doc.layers, st.groupId) || target.parent);
@@ -1027,6 +1094,7 @@ function detectHexesFast(doc, group, layer) {
 
 function actApply(doc) {
     PM_CACHE = {}; PM_HELP = {}; PM_DET = {};
+    clearPickCache(doc);
     try { actApplyInner(doc); } finally {
         clearCache(doc); closeHelpers(doc);
         try { if (PM_DET && PM_DET.mdoc) PM_DET.mdoc.close(SaveOptions.DONOTSAVECHANGES); } catch (e) {}
@@ -1171,6 +1239,7 @@ if (PM_ACTION == 'none') {
         if (PM_ACTION == 'toggle') actToggle(doc);
         else if (PM_ACTION == 'pick_start') actPickStart(doc);
         else if (PM_ACTION == 'pick_end') actPickEnd(doc);
+        else if (PM_ACTION == 'retarget') actRetarget(doc);
         else if (PM_ACTION == 'bind_hex') doc.suspendHistory('Part Masks: прив\'язати', 'actBindHex(doc)');
         else if (PM_ACTION == 'bind') {
             PM_BIND = isAdjustment(doc.activeLayer) ? resolveBindColor(doc) : null;

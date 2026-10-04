@@ -1,7 +1,7 @@
 {
- "version": "7.3",
- "date": "2026-10-05 00:00",
- "notes": "Панель однакова на всіх ПК: кольорові кнопки, галочка «Перейменувати» не наїжджає на Update Masks.",
+ "version": "7.4",
+ "date": "2026-10-05 00:18",
+ "notes": "Shift+клік у «Вибір маски» ~1 с незалежно від кількості деталей (маска та сама). Інший шар під час вибору — маска переходить на нього без «Готово».",
  "shell_version": "7.0",
  "files": [
   {
@@ -24,9 +24,9 @@
   },
   {
    "path": "jsx/part_masks.jsx",
-   "size": 64567,
-   "fnv": "d9771aeb",
-   "sha256": "6322e779b93a3bba15a6ddaabc1f9004804bf1a13aa894cf438110b7027fe254"
+   "size": 68806,
+   "fnv": "cdec0819",
+   "sha256": "a5949fcf94cca44349db77ad826a1f63685c006f4df9005faee601c3a6a22cf1"
   },
   {
    "path": "jsx/mask_names.jsx",
@@ -42,15 +42,15 @@
   },
   {
    "path": "ui/ui.js",
-   "size": 39226,
-   "fnv": "2ebaba3a",
-   "sha256": "da253083d32d0702d03c5867ade5a29dc4e0185094a3f70d008af7c7949c73ab"
+   "size": 40818,
+   "fnv": "f8c1ba23",
+   "sha256": "6ede40831b2286da6e9b0d2dd176d64e0100e49c0e6b24f8a59b917ddeeea178"
   },
   {
    "path": "ui/ui_version.txt",
    "size": 3,
-   "fnv": "17f473e1",
-   "sha256": "3dcfb00c29b15a402da6c2ca2308157ba64ba500d09e8654328458c98c4b65e1"
+   "fnv": "18f47574",
+   "sha256": "ddedc367715e5881092070805ac65fab905b69056ff843f5873977ea335c92a9"
   }
  ]
 }
