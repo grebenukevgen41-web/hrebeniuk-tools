@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PS Tools для Photoshop</title>
+<style>
+  :root { --bg: #f6f6f4; --card: #fff; --ink: #1d1d1b; --muted: #6b6b66; --accent: #00695c; --line: #e2e2dd; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1b1b1a; --card: #242423; --ink: #ececea; --muted: #a3a39d; --accent: #4db6ac; --line: #353533; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 'Segoe UI', system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .ver { color: var(--muted); margin: 0 0 28px; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+         padding: 12px 22px; border-radius: 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; margin: 22px 0; }
+  ol { margin: 0; padding-left: 22px; } li { margin: 6px 0; }
+  .muted { color: var(--muted); font-size: 14px; }
+  code { background: var(--bg); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PS Tools для Photoshop</h1>
+  <p class="ver" id="ver">Панель Hrebeniuk Tools: Load Images, Replace Renders, Update Masks, маски деталей, Batch Export.</p>
+
+  <a class="btn" href="ВСТАНОВИТИ_PS_Tools.bat" download>Завантажити ВСТАНОВИТИ_PS_Tools.bat</a>
+
+  <div class="card">
+    <ol>
+      <li>Запусти завантажений <code>ВСТАНОВИТИ_PS_Tools.bat</code> (якщо Windows попередить — «Докладніше» → «Виконати однаково»).</li>
+      <li>Коли Windows попросить дозвіл — натисни <b>«Так»</b> (потрібно, щоб покласти панель у папку Photoshop).</li>
+      <li>Перезапусти Photoshop → меню <b>Plugins → PS Tools</b>. Панель можна прикріпити збоку.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <b>Оновлення</b> — самі: коли вийде нова версія, у панелі з'явиться жовта кнопка «Оновити до v…».
+    Натисни її — і все. Встановлювати ще раз не треба.
+  </div>
+
+  <p class="muted">Потрібен Photoshop 2022 або новіший, Windows.
+    Без інтернету: <a href="PS_Tools.zip">PS_Tools.zip</a> → розпакуй → <code>ВСТАНОВИТИ.bat</code>.
+    Видалити: у тому ж архіві <code>ВИДАЛИТИ.bat</code>.</p>
+</main>
+<script>
+  fetch('version.json?t=' + Date.now()).then(function (r) { return r.json(); }).then(function (v) {
+    document.getElementById('ver').textContent = 'Версія ' + v.version + ' від ' + v.date + (v.notes ? ' — ' + v.notes : '');
+  }).catch(function () {});
+</script>
+</body>
+</html>

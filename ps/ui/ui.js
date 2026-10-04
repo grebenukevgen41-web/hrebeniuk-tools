@@ -719,10 +719,10 @@ async function checkUpdates(manual) {
   var local = await localScriptsVersion();
   var notes = updRemote.notes ? String(updRemote.notes) : '';
   if (updRemote.shell_version && verGt(updRemote.shell_version, PST.shellVersion)) {   // рамка змінилась — тільки пакетом (рідко)
-    updShow('&#11015; Нова версія v' + updRemote.version + ' — завантаж пакет', notes);
+    updShow('&#8595; Нова версія v' + updRemote.version + ' — завантаж пакет', notes);
     updKind = 'panel';
   } else if (verGt(updRemote.version, local) || verGt(updRemote.version, PANEL_VERSION)) {
-    updShow('&#11015; Оновити до v' + updRemote.version, notes);
+    updShow('&#8595; Оновити до v' + updRemote.version, notes);
     updKind = 'scripts';
   } else {
     updShow('', '');

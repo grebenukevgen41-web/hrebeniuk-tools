@@ -13,11 +13,7 @@
   .b-replace:hover { background: #6a1b9a; }
   .b-masks   { background: #00695c; }
   .b-masks:hover   { background: #00897b; }
-  .rename-toggle {
-    display: flex; align-items: center; gap: 5px;
-    font-size: 10px; color: #ccc; margin: -1px 0 5px 2px;
-    cursor: pointer;
-  }
+  .rename-toggle { display: block; margin: -2px 0 4px 0; }
   .rename-fields {
     display: none; gap: 4px; margin-bottom: 5px;
   }
@@ -55,9 +51,7 @@
 </style>
 <button class="btn b-load"    id="btnLoad">Load Images</button>
 <button class="btn b-replace" id="btnReplace">Replace Renders</button>
-<label class="rename-toggle">
-  <input type="checkbox" id="chkRename"> Перейменувати шари/групи (Find→Replace)
-</label>
+<sp-checkbox id="chkRename" class="rename-toggle">Перейменувати шари/групи (Find→Replace)</sp-checkbox>
 <div class="rename-fields" id="renameFields">
   <input type="text" id="txtFind" placeholder="Знайти, напр. Natural">
   <input type="text" id="txtReplace" placeholder="Замінити, напр. Oak">
@@ -69,9 +63,9 @@
   <input type="text" id="pmFuzz" value="12" title="0–200. Ореол по краю деталі — збільш до 20–30. Залазить на сусідню деталь — зменш до 5–8">
 </div>
 <div class="pm-hint">0 — точний колір, 12 — м'який край, 30+ — ширше</div>
-<button class="btn b-pm" id="btnPmShow" title="Показує ID-маску групи, робить її активною і вмикає піпетку. Клацни піпеткою по деталі на моделі (або по кольору в палітрі нижче) — маска одразу ляже на коригувальний шар. Маска ляже на шар, на якому стоїш (корекція, шар або група). Клік піпеткою — тільки ця деталь, Shift+клік — додати, Alt+клік — прибрати. Ще раз «Вибір маски» — наступна ID-маска групи. «Готово» — завершити">&#128065; Вибір маски</button>
+<button class="btn b-pm" id="btnPmShow" title="Показує ID-маску групи, робить її активною і вмикає піпетку. Клацни піпеткою по деталі на моделі (або по кольору в палітрі нижче) — маска одразу ляже на коригувальний шар. Маска ляже на шар, на якому стоїш (корекція, шар або група). Клік піпеткою — тільки ця деталь, Shift+клік — додати, Alt+клік — прибрати. Ще раз «Вибір маски» — наступна ID-маска групи. «Готово» — завершити">Вибір маски</button>
 <div id="pmPalette" class="pm-palette" style="display:none;"></div>
-<button class="btn b-pm" id="btnPmApply" title="Прив'язані шари цієї групи → на інші групи. Маска будується з ID-маски кожної групи. Нема кольору — шар з порожньою маскою ⚠">&#128228; Перенос на інші групи</button>
+<button class="btn b-pm" id="btnPmApply" title="Прив'язані шари цієї групи → на інші групи. Маска будується з ID-маски кожної групи. Нема кольору — шар з порожньою маскою ⚠">Перенос на інші групи</button>
 <button class="btn b-launch"  id="btnBatch">&#9654; Batch Export v5</button>
 <div class="status" id="status">&#8212;</div>
 <div class="upd" id="updBox" style="display:none;"></div>
