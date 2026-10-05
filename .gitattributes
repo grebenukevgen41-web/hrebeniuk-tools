@@ -1,0 +1,3 @@
+# Windows .bat/.cmd must keep CRLF: with LF + chcp 65001 cmd mangles lines and the window closes at once
+*.bat -text
+*.cmd -text
