@@ -84,16 +84,16 @@
       "id": "thuma_fabric",
       "name": "Thuma Fabric",
       "tagline": "Fabric switcher and FABRIC LOOK sliders for Thuma",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "archive_url": "./thuma_fabric-1.5.0.zip",
-      "archive_size": 15217,
-      "archive_hash": "sha256:f3f0b1e92668b2559fa810fcd7c2cfe23bf21f334cd7b6a2faff62f7a86efb26"
+      "archive_url": "./thuma_fabric-1.6.0.zip",
+      "archive_size": 15743,
+      "archive_hash": "sha256:ccf8ae8c3bcc8ed76d84ec9a26e9216f03f804837be3db3f2c8808e9e0a20806"
     },
     {
       "schema_version": "1.0.0",
