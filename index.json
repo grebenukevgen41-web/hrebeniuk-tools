@@ -84,23 +84,23 @@
       "id": "thuma_fabric",
       "name": "Thuma Fabric",
       "tagline": "Fabric switcher and FABRIC LOOK sliders for Thuma",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "archive_url": "./thuma_fabric-1.4.0.zip",
-      "archive_size": 11913,
-      "archive_hash": "sha256:19d7acb963de59c07122410811e3ccb4fa631b66924e762118de36dadc7a707c"
+      "archive_url": "./thuma_fabric-1.5.0.zip",
+      "archive_size": 15217,
+      "archive_hash": "sha256:f3f0b1e92668b2559fa810fcd7c2cfe23bf21f334cd7b6a2faff62f7a86efb26"
     },
     {
       "schema_version": "1.0.0",
       "id": "wirecolor_mask_addon",
       "name": "WireColor Masks",
       "tagline": "Object, face and material ID masks",
-      "version": "3.6.0",
+      "version": "3.7.0",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -110,9 +110,9 @@
       "permissions": {
         "files": "Save rendered mask images"
       },
-      "archive_url": "./wirecolor_mask_addon-3.6.0.zip",
-      "archive_size": 14190,
-      "archive_hash": "sha256:2235d722ecfb78d5ea6984d895569c1859d8f977c70ae90a3d40d2314e5797a1"
+      "archive_url": "./wirecolor_mask_addon-3.7.0.zip",
+      "archive_size": 14396,
+      "archive_hash": "sha256:69991a3f3f3d63b820084769b7deed6c017d0500cc2db9799f8ed2e9d592e672"
     }
   ]
 }
