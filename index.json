@@ -46,7 +46,7 @@
       "id": "hrebeniuk_hub",
       "name": "Hrebeniuk Hub",
       "tagline": "All Hrebeniuk tools in one tab with auto-updates",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -56,9 +56,9 @@
       "permissions": {
         "files": "Back up and remove old manual copies of these add-ons"
       },
-      "archive_url": "./hrebeniuk_hub-1.2.1.zip",
-      "archive_size": 8987,
-      "archive_hash": "sha256:8fdbef115bfa17db1f81765ba2a0501a1a9797ba11e977f1ed98396d310c95ad"
+      "archive_url": "./hrebeniuk_hub-1.2.2.zip",
+      "archive_size": 9128,
+      "archive_hash": "sha256:6809e7648692f628b87bdbba7b50f7ede89a784e3cddea419876b73dc430c78c"
     },
     {
       "schema_version": "1.0.0",
@@ -78,6 +78,22 @@
       "archive_url": "./seam_shadow-3.41.0.zip",
       "archive_size": 34897,
       "archive_hash": "sha256:a689d084fd1d50090e868587c3641d499602b5971cf8ec6c200aa75d7544e8a3"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "thuma_fabric",
+      "name": "Thuma Fabric",
+      "tagline": "Fabric switcher and FABRIC LOOK sliders for Thuma",
+      "version": "1.4.0",
+      "type": "add-on",
+      "maintainer": "Hrebeniuk Tools",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "archive_url": "./thuma_fabric-1.4.0.zip",
+      "archive_size": 11913,
+      "archive_hash": "sha256:19d7acb963de59c07122410811e3ccb4fa631b66924e762118de36dadc7a707c"
     },
     {
       "schema_version": "1.0.0",
