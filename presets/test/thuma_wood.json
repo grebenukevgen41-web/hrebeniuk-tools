@@ -1,0 +1,7920 @@
+{
+ "thuma_wood_settings": 1,
+ "addon": [
+  1,
+  12,
+  1
+ ],
+ "materials": {
+  "Chair_GRAIN_Thuma_Wood_Straight-Board_4K": {
+   "displacement_method": "BUMP",
+   "nodes": {
+    "Group.006": {
+     "in": {
+      "Socket_6": [
+       "Hue",
+       0.4970000088214874
+      ],
+      "Socket_7": [
+       "Saturation",
+       1.100000023841858
+      ],
+      "Socket_8": [
+       "Value",
+       0.75
+      ],
+      "Socket_2": [
+       "Location",
+       [
+        0.0,
+        0.914400041103363,
+        0.0
+       ]
+      ],
+      "Socket_3": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_4": [
+       "Scale",
+       [
+        15.0,
+        15.0,
+        15.0
+       ]
+      ]
+     }
+    },
+    "Group.006 >> Principled BSDF.002": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.5
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.3499999940395355
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "Group.006 >> Hue/Saturation/Value.001": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.006 >> Normal Map.001": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.20000000298023224
+      ]
+     }
+    },
+    "Group.006 >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.10000000149011612
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "Group.006 >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.2000000476837158
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.006 >> Hue/Saturation/Value.003": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.006 >> Map Range": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Group.006 >> Map Range.001": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Group.006 >> Invert Color": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.006 >> UV x0.75 rot 0 (як на джерелі)": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        0.7480000257492065,
+        0.7480000257492065,
+        0.7480000257492065
+       ]
+      ]
+     }
+    },
+    "Group.003": {
+     "in": {
+      "Socket_9": [
+       "Hue",
+       0.5009999871253967
+      ],
+      "Socket_10": [
+       "Saturation",
+       0.9200000166893005
+      ],
+      "Socket_11": [
+       "Value",
+       0.4000000059604645
+      ],
+      "Socket_2": [
+       "Location",
+       [
+        -1.2395200729370117,
+        -0.02539999969303608,
+        0.0
+       ]
+      ],
+      "Socket_3": [
+       "Rotation",
+       [
+        0.0,
+        0.48694682121276855,
+        0.0
+       ]
+      ],
+      "Socket_4": [
+       "Scale",
+       [
+        15.0,
+        15.0,
+        15.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.10000000149011612
+      ]
+     }
+    },
+    "Group.003 >> Principled BSDF.002": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.5
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "Group.003 >> Hue/Saturation/Value.014": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.003 >> Bevel.001": {
+     "in": {
+      "Radius": [
+       "Radius",
+       0.0010000000474974513
+      ]
+     }
+    },
+    "Group.003 >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       2.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.003 >> Hue/Saturation/Value.002": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.003 >> Map Range": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Map Range.001": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint": {
+     "in": {
+      "Socket_1": [
+       "Contrast",
+       -0.1599999964237213
+      ],
+      "Socket_2": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_3": [
+       "Tint Sharpness",
+       0.0
+      ],
+      "Socket_4": [
+       "Use Color",
+       false
+      ],
+      "Socket_5": [
+       "Fiber Amount",
+       0.5999999642372131
+      ],
+      "Socket_6": [
+       "Fiber Color",
+       [
+        1.0,
+        0.5681630969047546,
+        0.11762593686580658,
+        1.0
+       ]
+      ],
+      "Socket_7": [
+       "Wood Amount",
+       0.0
+      ],
+      "Socket_8": [
+       "Wood Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.001": {
+     "in": {
+      "Value_001": [
+       "Value",
+       -1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.002": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.003": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.004": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Map Range": {
+     "in": {
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.005": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Map Range.001": {
+     "in": {
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.006": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.007": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.699999988079071
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.008": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Math.009": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Mix": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Mix.001": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Mix.002": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> Wood Fiber Contrast+Tint >> Mix.003": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Group.003 >> UV x0.75 rot 0 (як на джерелі)": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        0.7480000257492065,
+        0.7480000257492065,
+        0.7480000257492065
+       ]
+      ]
+     }
+    },
+    "Mix Shader.004": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    }
+   }
+  },
+  "Thuma_Wood_End-Grain_SWITCH": {
+   "displacement_method": "BUMP",
+   "nodes": {
+    "End-Grain Natural": {
+     "in": {
+      "Socket_9": [
+       "Hue",
+       0.5009999871253967
+      ],
+      "Socket_10": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_11": [
+       "Value",
+       1.2000000476837158
+      ],
+      "Socket_2": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_3": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_4": [
+       "Scale",
+       [
+        15.0,
+        15.0,
+        15.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Natural >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.10000000149011612
+      ]
+     }
+    },
+    "End-Grain Natural >> Principled BSDF.002": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.2000000476837158
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "End-Grain Natural >> Hue/Saturation/Value.014": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Natural >> Bevel.001": {
+     "in": {
+      "Radius": [
+       "Radius",
+       0.0010000000474974513
+      ]
+     }
+    },
+    "End-Grain Natural >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Natural >> Hue/Saturation/Value.002": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Natural >> Map Range": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Natural >> Map Range.001": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Natural >> WOOD LOOK (торці)": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       0.800000011920929
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       0.9200000166893005
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       0.8149679899215698
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       1.0
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       1.0
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.0
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       0.6700800061225891
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.75
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       0.8199999928474426
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       0.9300000071525574
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.5
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.1273000240325928
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.7699999809265137
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       1.0
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       1.0
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       1.0
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.0
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.0
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       1.0
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       1.0
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       0.5
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       1.0
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.0
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "End-Grain Natural >> EGL hue-0.5": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Natural >> EGL hue": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Natural >> EGL sat": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Natural >> EGL val": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Oak": {
+     "in": {
+      "Socket_6": [
+       "Hue",
+       0.49000000953674316
+      ],
+      "Socket_7": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_8": [
+       "Value",
+       1.149999976158142
+      ],
+      "Socket_2": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_3": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Socket_4": [
+       "Scale",
+       [
+        15.0,
+        15.0,
+        15.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Oak >> Principled BSDF.002": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.5
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.3499999940395355
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "End-Grain Oak >> Hue/Saturation/Value.001": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Oak >> Normal Map.001": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.20000000298023224
+      ]
+     }
+    },
+    "End-Grain Oak >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.10000000149011612
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "End-Grain Oak >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       0.875
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Oak >> Hue/Saturation/Value.003": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Oak >> Map Range": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Oak >> Map Range.001": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Oak >> Invert Color": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Oak >> WOOD LOOK (торці)": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       0.9404999613761902
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       1.0
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       0.8046500086784363
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       1.0
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       1.0
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.0
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       1.2540000677108765
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.949999988079071
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       1.2549999952316284
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       1.0
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.5
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.5480999946594238
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       1.0
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       0.8500000238418579
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       0.8500000238418579
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       1.0
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.0
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.0
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       1.0
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       1.0
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       1.0
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       1.0
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.0
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "End-Grain Oak >> EGL hue-0.5": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Oak >> EGL hue": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Oak >> EGL sat": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Oak >> EGL val": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Math": {
+     "in": {
+      "Value_001": [
+       "Value",
+       2.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Walnut": {
+     "in": {
+      "Socket_6": [
+       "Hue",
+       0.4880000054836273
+      ],
+      "Socket_7": [
+       "Saturation",
+       1.2999999523162842
+      ],
+      "Socket_8": [
+       "Value",
+       1.0
+      ],
+      "Socket_2": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_3": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_4": [
+       "Scale",
+       [
+        15.0,
+        15.0,
+        15.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Walnut >> Hue/Saturation/Value.011": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Walnut >> Principled BSDF.002": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.5
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "End-Grain Walnut >> Normal Map.001": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.20000000298023224
+      ]
+     }
+    },
+    "End-Grain Walnut >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.10000000149011612
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "End-Grain Walnut >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Walnut >> Hue/Saturation/Value.001": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Walnut >> Map Range": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Walnut >> Map Range.001": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Walnut >> Invert Color": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Walnut >> WOOD LOOK (торці)": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       0.9521999955177307
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       1.0
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       0.8146599531173706
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       1.0
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       0.7405999898910522
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.0
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       1.2696000337600708
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.800000011920929
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       1.0579999685287476
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       1.0
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.5
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       2.0
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.800000011920929
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       1.0
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       1.0
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       1.0
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.0
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.0
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       1.0
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       1.0
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       1.0
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       1.0
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.0
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "End-Grain Walnut >> EGL hue-0.5": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Walnut >> EGL hue": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Walnut >> EGL sat": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Walnut >> EGL val": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Math.001": {
+     "in": {
+      "Value_001": [
+       "Value",
+       3.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Espresso": {
+     "in": {
+      "Socket_9": [
+       "Hue",
+       0.5
+      ],
+      "Socket_10": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_11": [
+       "Value",
+       1.5
+      ],
+      "Socket_2": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_3": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_4": [
+       "Scale",
+       [
+        15.0,
+        15.0,
+        15.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Espresso >> Principled BSDF.001": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.5
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.4000000059604645
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "End-Grain Espresso >> Hue/Saturation/Value.001": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Espresso >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.20000000298023224
+      ]
+     }
+    },
+    "End-Grain Espresso >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.10000000149011612
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "End-Grain Espresso >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       0.875
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Espresso >> Hue/Saturation/Value.002": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Espresso >> Map Range": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Espresso >> Map Range.001": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Espresso >> Invert Color": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Espresso >> WOOD LOOK (торці)": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       0.9458999633789062
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       1.0
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       0.9092699289321899
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       1.0
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       1.0
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.0
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       1.2999999523162842
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       1.0
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       2.1510000228881836
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       1.0
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.5
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.2000000476837158
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.8999999761581421
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       1.0
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       0.8999999761581421
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       1.0
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.0
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.0
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       1.0
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       1.0
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       1.0
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       1.0
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.0
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "End-Grain Espresso >> EGL hue-0.5": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Espresso >> EGL hue": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Espresso >> EGL sat": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Espresso >> EGL val": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Math.002": {
+     "in": {
+      "Value_001": [
+       "Value",
+       4.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Grey": {
+     "in": {
+      "Socket_9": [
+       "Hue",
+       0.5199999809265137
+      ],
+      "Socket_10": [
+       "Saturation",
+       0.5199999809265137
+      ],
+      "Socket_11": [
+       "Value",
+       0.800000011920929
+      ],
+      "Socket_4": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_5": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_6": [
+       "Scale",
+       [
+        15.0,
+        15.0,
+        15.0
+       ]
+      ],
+      "Socket_12": [
+       "Distance",
+       0.05000000074505806
+      ]
+     }
+    },
+    "End-Grain Grey >> Principled BSDF.001": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.2999999523162842
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.30000001192092896
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "End-Grain Grey >> Hue/Saturation/Value.002": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Grey >> Hue/Saturation/Value.007 >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.2000000476837158
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Grey >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.20000000298023224
+      ]
+     }
+    },
+    "End-Grain Grey >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.10000000149011612
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "End-Grain Grey >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Grey >> Hue/Saturation/Value.001": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "End-Grain Grey >> Map Range": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Grey >> Map Range.001": {
+     "in": {
+      "From Min": [
+       "From Min",
+       0.0
+      ],
+      "From Max": [
+       "From Max",
+       1.0
+      ],
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Grey >> Bevel >> Bevel": {
+     "in": {
+      "Radius": [
+       "Radius",
+       0.0001500000071246177
+      ]
+     }
+    },
+    "End-Grain Grey >> Mix": {
+     "in": {
+      "Factor_Float": [
+       "Factor",
+       1.0
+      ],
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "End-Grain Grey >> WOOD LOOK (торці)": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       0.8999999761581421
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       1.0
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       0.7699999809265137
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       1.0
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       0.699999988079071
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.0
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       1.2000000476837158
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       1.0
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       0.8100000619888306
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       1.0
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.5
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.7999999523162842
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       1.0
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       1.0
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       1.0
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       1.0
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.0
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.0
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       1.0
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       1.0
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       1.0
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       1.0
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.0
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "End-Grain Grey >> EGL hue-0.5": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Grey >> EGL hue": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Grey >> EGL sat": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "End-Grain Grey >> EGL val": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Math.003": {
+     "in": {
+      "Value_001": [
+       "Value",
+       5.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    }
+   }
+  },
+  "Thuma_Wood_Finger-Joints_4K": {
+   "displacement_method": "BOTH",
+   "nodes": {
+    "Thuma_Finger-Joint-Wood _Natural_4K.001": {
+     "in": {
+      "Socket_4": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_6": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Socket_7": [
+       "Scale",
+       [
+        2.0999999046325684,
+        2.0999999046325684,
+        2.0999999046325684
+       ]
+      ],
+      "Socket_14": [
+       "Hue",
+       0.5019999742507935
+      ],
+      "Socket_15": [
+       "Saturation",
+       1.0199999809265137
+      ],
+      "Socket_16": [
+       "Value",
+       0.8999999761581421
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Principled BSDF": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.5
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Bevel": {
+     "in": {
+      "Radius": [
+       "Radius",
+       0.0010000000474974513
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Mapping.009": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.6349999904632568,
+        0.15240000188350677,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.5,
+        2.0,
+        2.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Hue/Saturation/Value.018": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.49799999594688416
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0499999523162842
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Hue/Saturation/Value": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> UV x2.14 rot 90 (як на джерелі)": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.0,
+        2.0,
+        2.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> UV x2.14 rot 90 (як на джерелі).001": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.140000104904175,
+        2.140000104904175,
+        2.140000104904175
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Match (ref)": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> WOOD LOOK": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       2.020829916000366
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       1.0066699981689453
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       1.8570200204849243
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       1.0523099899291992
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       2.3794400691986084
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.117300033569336
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       2.2464399337768555
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.9442800283432007
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       1.9013999700546265
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       0.9603199362754822
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.4950000047683716
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.5130300521850586
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.8420100212097168
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       0.46000000834465027
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       0.8220100402832031
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       0.05488999933004379
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.149999976158142
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       0.8540599942207336
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       0.7975900173187256
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       0.699999988079071
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       0.5
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       0.5999999046325684
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.100000023841858
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint": {
+     "in": {
+      "Socket_1": [
+       "Contrast",
+       -0.09999999403953552
+      ],
+      "Socket_2": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_3": [
+       "Tint Sharpness",
+       0.20000000298023224
+      ],
+      "Socket_4": [
+       "Use Color",
+       false
+      ],
+      "Socket_5": [
+       "Fiber Amount",
+       0.0
+      ],
+      "Socket_6": [
+       "Fiber Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Socket_7": [
+       "Wood Amount",
+       0.0
+      ],
+      "Socket_8": [
+       "Wood Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.001": {
+     "in": {
+      "Value_001": [
+       "Value",
+       -1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.002": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.003": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.004": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Map Range": {
+     "in": {
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.005": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Map Range.001": {
+     "in": {
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.006": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.007": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.699999988079071
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.008": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Math.009": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Mix": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Mix.001": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Mix.002": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Natural_4K.001 >> Wood Fiber Contrast+Tint >> Mix.003": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001": {
+     "in": {
+      "Socket_4": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_6": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Socket_7": [
+       "Scale",
+       [
+        2.5,
+        2.5,
+        2.5
+       ]
+      ],
+      "Socket_9": [
+       "Hue",
+       0.5006999969482422
+      ],
+      "Socket_10": [
+       "Saturation",
+       0.8299999833106995
+      ],
+      "Socket_11": [
+       "Value",
+       1.100000023841858
+      ],
+      "Socket_12": [
+       "Alpha",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Principled BSDF": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.2999999523162842
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.8999999761581421
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Bevel": {
+     "in": {
+      "Radius": [
+       "Radius",
+       0.001500000013038516
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Hue/Saturation/Value.001": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.49300000071525574
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0499999523162842
+      ],
+      "Value": [
+       "Value",
+       0.800000011920929
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Hue/Saturation/Value": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> UV x2.14 rot 90 (як на джерелі)": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.140000104904175,
+        2.140000104904175,
+        2.140000104904175
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Wood Match (ref)": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> WOOD LOOK": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       1.5681999921798706
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       0.8291000127792358
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       1.5817999839782715
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       0.766700029373169
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       1.5205999612808228
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       0.9120000004768372
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       2.412600040435791
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.7777000069618225
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       3.1003997325897217
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       0.832099974155426
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.4975000023841858
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.1655001640319824
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.8420000076293945
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       0.9800000190734863
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       0.7720000147819519
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       0.5
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.149999976158142
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.7999999523162842
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       0.7975999712944031
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       0.699999988079071
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       0.5
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       0.6000000238418579
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.100000023841858
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Espresso_4K.001 >> Wood Fiber Contrast+Tint": {
+     "in": {
+      "Socket_1": [
+       "Contrast",
+       -0.012000000104308128
+      ],
+      "Socket_2": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_3": [
+       "Tint Sharpness",
+       0.03999999910593033
+      ],
+      "Socket_4": [
+       "Use Color",
+       true
+      ],
+      "Socket_5": [
+       "Fiber Amount",
+       0.09999999403953552
+      ],
+      "Socket_6": [
+       "Fiber Color",
+       [
+        0.3686109185218811,
+        0.24394391477108002,
+        0.20105716586112976,
+        1.0
+       ]
+      ],
+      "Socket_7": [
+       "Wood Amount",
+       0.25
+      ],
+      "Socket_8": [
+       "Wood Color",
+       [
+        0.3154161274433136,
+        0.07257035374641418,
+        0.07257035374641418,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001": {
+     "in": {
+      "Socket_4": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_6": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Socket_7": [
+       "Scale",
+       [
+        2.5999999046325684,
+        2.0,
+        2.5999999046325684
+       ]
+      ],
+      "Socket_9": [
+       "Hue",
+       0.5019999742507935
+      ],
+      "Socket_10": [
+       "Saturation",
+       0.949999988079071
+      ],
+      "Socket_11": [
+       "Value",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Principled BSDF": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.2999999523162842
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.0
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5299999713897705
+      ],
+      "Saturation": [
+       "Saturation",
+       0.5400000214576721
+      ],
+      "Value": [
+       "Value",
+       0.30000001192092896
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Brightness/Contrast": {
+     "in": {
+      "Bright": [
+       "Brightness",
+       0.0
+      ],
+      "Contrast": [
+       "Contrast",
+       -0.05000000074505806
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Hue/Saturation/Value.001": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> UV x2.14 rot 90 (як на джерелі)": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.140000104904175,
+        2.140000104904175,
+        2.140000104904175
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Match (ref)": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> WOOD LOOK": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       1.4609999656677246
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       0.9121000170707703
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       1.2109999656677246
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       0.953499972820282
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       1.1198999881744385
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.0032999515533447
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       1.9656000137329102
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.8555999994277954
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       1.3337998390197754
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       0.9154000282287598
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.4982999861240387
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.4399000406265259
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.8420000076293945
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       1.027400016784668
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       0.7720000147819519
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       0.6000000238418579
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.149999976158142
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.3574999570846558
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       0.7975999712944031
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       0.699999988079071
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       0.5
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       0.6000000238418579
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.100000023841858
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001": {
+     "in": {
+      "Socket_0": [
+       "Color",
+       [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+       ]
+      ],
+      "Socket_1": [
+       "Contrast",
+       -0.05000000074505806
+      ],
+      "Socket_2": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_3": [
+       "Tint Sharpness",
+       0.5
+      ],
+      "Socket_4": [
+       "Use Color",
+       true
+      ],
+      "Socket_5": [
+       "Fiber Amount",
+       0.28999999165534973
+      ],
+      "Socket_6": [
+       "Fiber Color",
+       [
+        0.2734375,
+        0.2318115234375,
+        0.1978759765625,
+        1.0
+       ]
+      ],
+      "Socket_7": [
+       "Wood Amount",
+       0.0
+      ],
+      "Socket_8": [
+       "Wood Color",
+       [
+        0.39675527811050415,
+        0.23839764297008514,
+        0.10461651533842087,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Hue/Saturation/Value": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5
+      ],
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.001": {
+     "in": {
+      "Value_001": [
+       "Value",
+       -1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.002": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.003": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.004": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Map Range": {
+     "in": {
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.005": {
+     "in": {
+      "Value": [
+       "Value",
+       1.0
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Map Range.001": {
+     "in": {
+      "To Min": [
+       "To Min",
+       0.0
+      ],
+      "To Max": [
+       "To Max",
+       1.0
+      ],
+      "Steps": [
+       "Steps",
+       4.0
+      ],
+      "From_Min_FLOAT3": [
+       "From Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "From_Max_FLOAT3": [
+       "From Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "To_Min_FLOAT3": [
+       "To Min",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "To_Max_FLOAT3": [
+       "To Max",
+       [
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Steps_FLOAT3": [
+       "Steps",
+       [
+        4.0,
+        4.0,
+        4.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.006": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.007": {
+     "in": {
+      "Value_001": [
+       "Value",
+       0.699999988079071
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.008": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Math.009": {
+     "in": {
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Mix": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Mix.001": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Mix.002": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Grey_4K.001 >> Wood Fiber Contrast+Tint.001 >> Mix.003": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Vector": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Vector": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001": {
+     "in": {
+      "Socket_4": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_6": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Socket_7": [
+       "Scale",
+       [
+        2.0999999046325684,
+        2.0999999046325684,
+        2.0999999046325684
+       ]
+      ],
+      "Socket_9": [
+       "Hue",
+       0.5019999742507935
+      ],
+      "Socket_10": [
+       "Saturation",
+       0.800000011920929
+      ],
+      "Socket_11": [
+       "Value",
+       1.0499999523162842
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Principled BSDF": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.149999976158142
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       0.4000000059604645
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Bevel": {
+     "in": {
+      "Radius": [
+       "Radius",
+       0.001500000013038516
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Reroute.001": {
+     "in": {
+      "Input": [
+       "Input",
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Hue/Saturation/Value.001": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.4970000088214874
+      ],
+      "Saturation": [
+       "Saturation",
+       1.0075000524520874
+      ],
+      "Value": [
+       "Value",
+       0.5400000214576721
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Hue/Saturation/Value": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> UV x2.14 rot 90 (як на джерелі)": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        1.7000000476837158,
+        1.7000000476837158,
+        1.7000000476837158
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Wood Match (ref)": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> WOOD LOOK": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       1.3329999446868896
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       0.883899986743927
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       1.5192999839782715
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       0.8639000058174133
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       1.4664000272750854
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       0.9721999764442444
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       2.3457000255584717
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.8291000127792358
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       2.4662997722625732
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       0.8870999813079834
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.498199999332428
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.4655002355575562
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.8420000076293945
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       0.880000114440918
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       0.8420000076293945
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       0.5
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.100000023841858
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.7999999523162842
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       0.8999999761581421
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       0.699999988079071
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       0.5
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       0.6899999380111694
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.100000023841858
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Walnut_4K.001 >> Wood Fiber Contrast+Tint": {
+     "in": {
+      "Socket_1": [
+       "Contrast",
+       -0.03500000014901161
+      ],
+      "Socket_2": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_3": [
+       "Tint Sharpness",
+       0.5
+      ],
+      "Socket_4": [
+       "Use Color",
+       true
+      ],
+      "Socket_5": [
+       "Fiber Amount",
+       0.11999999731779099
+      ],
+      "Socket_6": [
+       "Fiber Color",
+       [
+        0.15592648088932037,
+        0.07227186858654022,
+        0.042311422526836395,
+        1.0
+       ]
+      ],
+      "Socket_7": [
+       "Wood Amount",
+       0.0
+      ],
+      "Socket_8": [
+       "Wood Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001": {
+     "in": {
+      "Socket_6": [
+       "Displacement - 1",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_8": [
+       "Displacement - 2",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_10": [
+       "Displacement - 3",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_13": [
+       "Displacement - 4",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_15": [
+       "Displacement - 5",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Mix.001": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Color": [
+       "A",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "B_Color": [
+       "B",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Mix.002": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Color": [
+       "A",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "B_Color": [
+       "B",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Mix.003": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Color": [
+       "A",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "B_Color": [
+       "B",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Mix.004": {
+     "in": {
+      "Factor_Vector": [
+       "Factor",
+       [
+        0.5,
+        0.5,
+        0.5
+       ]
+      ],
+      "A_Float": [
+       "A",
+       0.0
+      ],
+      "B_Float": [
+       "B",
+       0.0
+      ],
+      "A_Color": [
+       "A",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "B_Color": [
+       "B",
+       [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+       ]
+      ],
+      "A_Rotation": [
+       "A",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "B_Rotation": [
+       "B",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Math": {
+     "in": {
+      "Value_001": [
+       "Value",
+       1.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Math.001": {
+     "in": {
+      "Value_001": [
+       "Value",
+       2.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Math.002": {
+     "in": {
+      "Value_001": [
+       "Value",
+       3.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Material Transition - 5 Frames.001 >> Math.003": {
+     "in": {
+      "Value_001": [
+       "Value",
+       4.5
+      ],
+      "Value_002": [
+       "Value",
+       0.5
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004": {
+     "in": {
+      "Socket_3": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Socket_4": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Socket_5": [
+       "Scale",
+       [
+        2.25,
+        2.25,
+        2.25
+       ]
+      ],
+      "Socket_8": [
+       "Hue",
+       0.5009999871253967
+      ],
+      "Socket_9": [
+       "Saturation",
+       0.925000011920929
+      ],
+      "Socket_10": [
+       "Value",
+       0.9800000190734863
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Principled BSDF.001": {
+     "in": {
+      "IOR": [
+       "IOR",
+       1.2000000476837158
+      ],
+      "Alpha": [
+       "Alpha",
+       1.0
+      ],
+      "Thin Wall": [
+       "Thin Wall",
+       false
+      ],
+      "Weight": [
+       "Weight",
+       0.0
+      ],
+      "Diffuse Roughness": [
+       "Diffuse Roughness",
+       0.0
+      ],
+      "Subsurface Weight": [
+       "Subsurface Weight",
+       0.0
+      ],
+      "Subsurface Radius": [
+       "Subsurface Radius",
+       [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+       ]
+      ],
+      "Subsurface Scale": [
+       "Subsurface Scale",
+       0.05000000074505806
+      ],
+      "Subsurface IOR": [
+       "Subsurface IOR",
+       1.399999976158142
+      ],
+      "Subsurface Anisotropy": [
+       "Subsurface Anisotropy",
+       0.0
+      ],
+      "Specular IOR Level": [
+       "Specular IOR Level",
+       0.5
+      ],
+      "Specular Tint": [
+       "Specular Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Anisotropic": [
+       "Anisotropic",
+       0.0
+      ],
+      "Anisotropic Rotation": [
+       "Anisotropic Rotation",
+       0.0
+      ],
+      "Transmission Weight": [
+       "Transmission Weight",
+       0.0
+      ],
+      "Coat Weight": [
+       "Coat Weight",
+       0.0
+      ],
+      "Coat Roughness": [
+       "Coat Roughness",
+       0.029999999329447746
+      ],
+      "Coat IOR": [
+       "Coat IOR",
+       1.5
+      ],
+      "Coat Tint": [
+       "Coat Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Sheen Weight": [
+       "Sheen Weight",
+       0.0
+      ],
+      "Sheen Roughness": [
+       "Sheen Roughness",
+       0.5
+      ],
+      "Sheen Tint": [
+       "Sheen Tint",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Color": [
+       "Emission Color",
+       [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ]
+      ],
+      "Emission Strength": [
+       "Emission Strength",
+       0.0
+      ],
+      "Thin Film Thickness": [
+       "Thin Film Thickness",
+       0.0
+      ],
+      "Thin Film IOR": [
+       "Thin Film IOR",
+       1.3300000429153442
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Normal Map": {
+     "in": {
+      "Strength": [
+       "Strength",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Bump": {
+     "in": {
+      "Strength": [
+       "Strength",
+       2.0
+      ],
+      "Distance": [
+       "Distance",
+       0.0010000000474974513
+      ],
+      "Filter Width": [
+       "Filter Width",
+       0.10000000149011612
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Reroute": {
+     "in": {
+      "Input": [
+       "Input",
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Mapping.001": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.12700000405311584,
+        0.5080000162124634,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.5,
+        1.5,
+        2.5999999046325684
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Hue/Saturation/Value.001": {
+     "in": {
+      "Hue": [
+       "Hue",
+       0.5199999809265137
+      ],
+      "Saturation": [
+       "Saturation",
+       0.9549999833106995
+      ],
+      "Value": [
+       "Value",
+       0.2750000059604645
+      ],
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Hue/Saturation/Value.002": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> UV x2.14 rot 90 (як на джерелі)": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.140000104904175,
+        2.140000104904175,
+        2.140000104904175
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> UV x2.14 rot 90 (як на джерелі).001": {
+     "in": {
+      "Location": [
+       "Location",
+       [
+        0.0,
+        0.0,
+        0.0
+       ]
+      ],
+      "Rotation": [
+       "Rotation",
+       [
+        0.0,
+        0.0,
+        1.5707963705062866
+       ]
+      ],
+      "Scale": [
+       "Scale",
+       [
+        2.140000104904175,
+        2.140000104904175,
+        2.140000104904175
+       ]
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Wood Match (ref)": {
+     "in": {
+      "Fac": [
+       "Factor",
+       1.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> WOOD LOOK": {
+     "in": {
+      "Socket_1": [
+       "Фронт: яскравість",
+       1.6031999588012695
+      ],
+      "Socket_2": [
+       "Фронт: насиченість",
+       0.9753000140190125
+      ],
+      "Socket_3": [
+       "Ліва 30°: яскравість",
+       1.4500000476837158
+      ],
+      "Socket_4": [
+       "Ліва 30°: насиченість",
+       0.9300000071525574
+      ],
+      "Socket_5": [
+       "Ліва 60°: яскравість",
+       1.6154999732971191
+      ],
+      "Socket_6": [
+       "Ліва 60°: насиченість",
+       1.022800087928772
+      ],
+      "Socket_7": [
+       "Права 30°: яскравість",
+       2.0840001106262207
+      ],
+      "Socket_8": [
+       "Права 30°: насиченість",
+       0.914900004863739
+      ],
+      "Socket_9": [
+       "Права 60°: яскравість",
+       2.157399892807007
+      ],
+      "Socket_10": [
+       "Права 60°: насиченість",
+       0.9788999557495117
+      ],
+      "Socket_11": [
+       "Відтінок",
+       0.49889999628067017
+      ],
+      "Socket_13": [
+       "Внутрішні ліворуч: яскравість",
+       1.1468000411987305
+      ],
+      "Socket_14": [
+       "Внутрішні ліворуч: насиченість",
+       0.8420000076293945
+      ],
+      "Socket_15": [
+       "Внутрішні праворуч: яскравість",
+       0.8500000238418579
+      ],
+      "Socket_16": [
+       "Внутрішні праворуч: насиченість",
+       0.800000011920929
+      ],
+      "Socket_18": [
+       "Нижня кромка: яскравість",
+       0.414000004529953
+      ],
+      "Socket_19": [
+       "Нижня кромка: насиченість",
+       1.149999976158142
+      ],
+      "Socket_20": [
+       "Ніжки: яскравість",
+       1.0
+      ],
+      "Socket_21": [
+       "Ніжки: насиченість",
+       0.800000011920929
+      ],
+      "Socket_23": [
+       "Тінь біля кута: яскравість",
+       1.0
+      ],
+      "Socket_24": [
+       "Тінь біля кута: насиченість",
+       0.699999988079071
+      ],
+      "Socket_25": [
+       "Стики впритул: насиченість",
+       0.5
+      ],
+      "Socket_26": [
+       "Торці у щілинах: яскравість",
+       0.6000000238418579
+      ],
+      "Socket_27": [
+       "Торці у щілинах: насиченість",
+       1.100000023841858
+      ],
+      "Socket_29": [
+       "Стики: радіус",
+       0.03500000014901161
+      ],
+      "Socket_30": [
+       "Стики: вище Z",
+       0.02199999988079071
+      ],
+      "Socket_31": [
+       "Тінь: радіус",
+       0.6000000238418579
+      ],
+      "Socket_32": [
+       "Тінь: відкрита AO",
+       0.6650000214576721
+      ],
+      "Socket_33": [
+       "Тінь: пік AO",
+       0.3499999940395355
+      ],
+      "Socket_34": [
+       "Тінь: кут AO",
+       0.3499999940395355
+      ],
+      "Socket_35": [
+       "Внутрішні: радіус",
+       1.0
+      ],
+      "Socket_36": [
+       "Внутрішні: відкрита AO",
+       0.5600000023841858
+      ],
+      "Socket_37": [
+       "Внутрішні: повна AO",
+       0.44999998807907104
+      ],
+      "Socket_38": [
+       "Торці: радіус",
+       0.01600000075995922
+      ],
+      "Socket_39": [
+       "Торці: повна AO",
+       0.75
+      ],
+      "Socket_40": [
+       "Торці: відкрита AO",
+       0.9200000166893005
+      ],
+      "Socket_44": [
+       "Внутрішні: м'якість",
+       2.0
+      ]
+     }
+    },
+    "Thuma_Finger-Joint-Wood _Oak_4K.004 >> Wood Fiber Contrast+Tint": {
+     "in": {
+      "Socket_1": [
+       "Contrast",
+       -0.05000000074505806
+      ],
+      "Socket_2": [
+       "Saturation",
+       1.0
+      ],
+      "Socket_3": [
+       "Tint Sharpness",
+       0.20000000298023224
+      ],
+      "Socket_4": [
+       "Use Color",
+       true
+      ],
+      "Socket_5": [
+       "Fiber Amount",
+       0.1899999976158142
+      ],
+      "Socket_6": [
+       "Fiber Color",
+       [
+        0.39675313234329224,
+        0.23723849654197693,
+        0.10302940756082535,
+        1.0
+       ]
+      ],
+      "Socket_7": [
+       "Wood Amount",
+       0.0
+      ],
+      "Socket_8": [
+       "Wood Color",
+       [
+        0.39675527811050415,
+        0.23839764297008514,
+        0.10461651533842087,
+        1.0
+       ]
+      ]
+     }
+    }
+   }
+  }
+ },
+ "stamp": "2026-10-09 14:49:24",
+ "look_hash": "9a0ef695548d0ba6562a0fa581b5940e",
+ "look_file": "thuma_wood_look.blend",
+ "source": "Essential_Sectional_All_Configs_v134.blend"
+}
