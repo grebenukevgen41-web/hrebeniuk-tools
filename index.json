@@ -26,7 +26,7 @@
       "id": "custom_frame_render",
       "name": "Custom Frame Render",
       "tagline": "Render chosen frames with names from a table",
-      "version": "1.7.4",
+      "version": "1.7.5",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -37,9 +37,9 @@
         "files": "Save rendered images",
         "network": "Read frame names from Google Sheets"
       },
-      "archive_url": "./custom_frame_render-1.7.4.zip",
-      "archive_size": 11531,
-      "archive_hash": "sha256:d65eff959e250abc5738b04b32745d9e5dfd6f13a8ca99f1de9a537f9c308129"
+      "archive_url": "./custom_frame_render-1.7.5.zip",
+      "archive_size": 11971,
+      "archive_hash": "sha256:ae1b1c18dc2a9d87007554204bd34beb581a08c170bbc7d35dd6e183a6803987"
     },
     {
       "schema_version": "1.0.0",
