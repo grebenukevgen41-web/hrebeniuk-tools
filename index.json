@@ -26,7 +26,7 @@
       "id": "custom_frame_render",
       "name": "Custom Frame Render",
       "tagline": "Render chosen frames with names from a table",
-      "version": "1.7.5",
+      "version": "1.8.0",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -37,9 +37,9 @@
         "files": "Save rendered images",
         "network": "Read frame names from Google Sheets"
       },
-      "archive_url": "./custom_frame_render-1.7.5.zip",
-      "archive_size": 11971,
-      "archive_hash": "sha256:ae1b1c18dc2a9d87007554204bd34beb581a08c170bbc7d35dd6e183a6803987"
+      "archive_url": "./custom_frame_render-1.8.0.zip",
+      "archive_size": 13649,
+      "archive_hash": "sha256:f7dc5f7f1eea6b897a1202bf8eec19b759327905b3534805c82100e581e82108"
     },
     {
       "schema_version": "1.0.0",
@@ -84,16 +84,16 @@
       "id": "thuma_fabric",
       "name": "Thuma Fabric",
       "tagline": "Fabric switcher and FABRIC LOOK sliders for Thuma",
-      "version": "1.13.0",
+      "version": "1.14.0",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "archive_url": "./thuma_fabric-1.13.0.zip",
-      "archive_size": 68118,
-      "archive_hash": "sha256:ef15684f3d3b22b920a292e0ca52034a31c4a5c45418c9722036e6d617d561c4"
+      "archive_url": "./thuma_fabric-1.14.0.zip",
+      "archive_size": 68759,
+      "archive_hash": "sha256:e787f736d680719dc5b96fc548e0bbae8531781cd88294d573680275c73880ca"
     },
     {
       "schema_version": "1.0.0",
