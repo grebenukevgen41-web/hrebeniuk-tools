@@ -3,7 +3,7 @@
  "addon": [
   1,
   18,
-  1
+  2
  ],
  "materials": {
   "Chair_GRAIN_Thuma_Wood_Straight-Board_4K": {
@@ -3616,11 +3616,11 @@
       ],
       "Socket_46": [
        "Фронт-кут: яскравість",
-       1.600000023841858
+       1.7999999523162842
       ],
       "Socket_47": [
        "Фронт-кут: насиченість",
-       0.49999991059303284
+       1.0
       ],
       "Socket_48": [
        "Фронт-кут: ширина, см",
@@ -8353,8 +8353,8 @@
    }
   }
  },
- "stamp": "2026-10-11 16:17:05",
+ "stamp": "2026-10-11 16:37:31",
  "look_hash": "254a3d68fa41054998cbbbf7078fe253",
  "look_file": "thuma_wood_look.blend",
- "source": "Essential_Sectional_All_Configs_v201.blend"
+ "source": "Essential_Sectional_All_Configs_v202.blend"
 }
