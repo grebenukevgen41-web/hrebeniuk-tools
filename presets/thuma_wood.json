@@ -2,8 +2,8 @@
  "thuma_wood_settings": 1,
  "addon": [
   1,
-  19,
-  10
+  21,
+  0
  ],
  "materials": {
   "Chair_GRAIN_Thuma_Wood_Straight-Board_4K": {
@@ -8433,8 +8433,8 @@
    }
   }
  },
- "stamp": "2026-10-12 03:53:42",
- "look_hash": "73f183a60647b411dc67f8e0030eca11",
+ "stamp": "2026-10-12 11:50:28",
+ "look_hash": "2bda60979fe44aebd8605baa57d712ad",
  "look_file": "thuma_wood_look.blend",
- "source": "Essential_Sectional_All_Configs_v217.blend"
+ "source": "Essential_Sectional_All_Configs_v219.blend"
 }
