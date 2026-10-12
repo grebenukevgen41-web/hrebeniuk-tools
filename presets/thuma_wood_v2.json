@@ -3,7 +3,7 @@
  "addon": [
   1,
   21,
-  3
+  4
  ],
  "materials": {
   "Chair_GRAIN_Thuma_Wood_Straight-Board_4K": {
@@ -8433,20 +8433,20 @@
    }
   }
  },
- "stamp": "2026-10-12 12:33:31",
- "look_hash": "2bda60979fe44aebd8605baa57d712ad",
+ "stamp": "2026-10-12 12:54:20",
+ "look_hash": "d59f31f0e283cdc48f3e4b75042cd23c",
  "look_file": "thuma_wood_look_v2.blend",
  "min_addon": [
   1,
   21,
-  3
+  4
  ],
  "eg_hashes": {
-  "Thuma_End-Grain_Espresso_4K": "9695b539c269793b2ead4a3804cb493e",
-  "Thuma_End-Grain_Grey_4K": "bb4915a8a8847d7195c315c485f888af",
-  "Thuma_End-Grain_Natural_4K": "dd2b2bfc3b4abb7896a007a43f131d2d",
-  "Thuma_End-Grain_Oak_4K.001": "264f345c7cfcae77d3c721bdd5a82cca",
-  "Thuma_End-Grain_Walnut_4K": "4af82ae20cae19e881a96a6beb34775c"
+  "Thuma_End-Grain_Espresso_4K": "d891a995dffcd824fc22b6393d5eeb91",
+  "Thuma_End-Grain_Grey_4K": "c5340bc2e1b1242cde4f9a745956e084",
+  "Thuma_End-Grain_Natural_4K": "da668aca0fa4d96762a7c828ace8941e",
+  "Thuma_End-Grain_Oak_4K.001": "3bdd021da398dfb813f777ce8408644b",
+  "Thuma_End-Grain_Walnut_4K": "d83a72f19c0bdbf18fa359d241f1710f"
  },
  "eg_nodes": {
   "End-Grain Natural": "Thuma_End-Grain_Natural_4K",
