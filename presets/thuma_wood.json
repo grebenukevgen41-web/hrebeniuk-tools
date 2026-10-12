@@ -3,7 +3,7 @@
  "addon": [
   1,
   19,
-  7
+  10
  ],
  "materials": {
   "Chair_GRAIN_Thuma_Wood_Straight-Board_4K": {
@@ -8433,8 +8433,8 @@
    }
   }
  },
- "stamp": "2026-10-12 02:03:00",
+ "stamp": "2026-10-12 03:53:42",
  "look_hash": "73f183a60647b411dc67f8e0030eca11",
  "look_file": "thuma_wood_look.blend",
- "source": "Essential_Sectional_All_Configs_v215.blend"
+ "source": "Essential_Sectional_All_Configs_v217.blend"
 }
