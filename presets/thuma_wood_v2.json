@@ -3,7 +3,7 @@
  "addon": [
   1,
   31,
-  1
+  5
  ],
  "materials": {
   "Chair_GRAIN_Thuma_Wood_Straight-Board_4K": {
@@ -6201,11 +6201,11 @@
       ],
       "Socket_100": [
        "Фаска знизу: насиченість",
-       1.0
+       0.8500000238418579
       ],
       "Socket_101": [
        "Фаска знизу: відблиск",
-       1.0
+       0.5
       ],
       "Socket_103": [
        "Фаска знизу: плавність",
@@ -8169,7 +8169,7 @@
       ],
       "Socket_101": [
        "Фаска знизу: відблиск",
-       1.0
+       0.5
       ],
       "Socket_103": [
        "Фаска знизу: плавність",
@@ -9387,7 +9387,7 @@
       ],
       "Socket_101": [
        "Фаска знизу: відблиск",
-       1.0
+       0.5
       ],
       "Socket_103": [
        "Фаска знизу: плавність",
@@ -10520,7 +10520,7 @@
       ],
       "Socket_101": [
        "Фаска знизу: відблиск",
-       1.0
+       0.800000011920929
       ],
       "Socket_103": [
        "Фаска знизу: плавність",
@@ -10805,7 +10805,7 @@
    }
   }
  },
- "stamp": "2026-10-16 00:02:45",
+ "stamp": "2026-10-16 02:48:09",
  "look_hash": "dc493e2ef6f67db758ccf994727ee7ac",
  "look_file": "thuma_wood_look_v2.blend",
  "min_addon": [
@@ -10827,5 +10827,5 @@
   "End-Grain Espresso": "Thuma_End-Grain_Espresso_4K",
   "End-Grain Grey": "Thuma_End-Grain_Grey_4K"
  },
- "source": "Essential_Sectional_All_Configs_v329.blend"
+ "source": "Essential_Sectional_All_Configs_v331.blend"
 }
