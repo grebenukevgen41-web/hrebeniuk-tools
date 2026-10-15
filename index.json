@@ -46,7 +46,7 @@
       "id": "hrebeniuk_hub",
       "name": "Hrebeniuk Hub",
       "tagline": "All Hrebeniuk tools in one tab with auto-updates",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -56,9 +56,9 @@
       "permissions": {
         "files": "Back up and remove old manual copies of these add-ons"
       },
-      "archive_url": "./hrebeniuk_hub-1.3.2.zip",
-      "archive_size": 12598,
-      "archive_hash": "sha256:0f69936992f8da19fb895a084d680f5958ebaf5bbd7257f61420bf3711e81149"
+      "archive_url": "./hrebeniuk_hub-1.3.3.zip",
+      "archive_size": 12624,
+      "archive_hash": "sha256:05998b6ea83072a8d0bda08042f6f8ec2da19117d98088e5fda96942b1104dd2"
     },
     {
       "schema_version": "1.0.0",
@@ -82,18 +82,18 @@
     {
       "schema_version": "1.0.0",
       "id": "thuma_fabric",
-      "name": "Thuma Fabric",
-      "tagline": "Fabric switcher and FABRIC LOOK sliders for Thuma",
-      "version": "1.31.4",
+      "name": "Thuma Material",
+      "tagline": "Thuma Material: fabric, wood and end-grain sliders",
+      "version": "1.31.5",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "archive_url": "./thuma_fabric-1.31.4.zip",
-      "archive_size": 5647084,
-      "archive_hash": "sha256:c71b680addd82e006a48681e2d3f4c0562d7e879593fa54238d71c2467c6a110"
+      "archive_url": "./thuma_fabric-1.31.5.zip",
+      "archive_size": 5647117,
+      "archive_hash": "sha256:878de31fbd81b545aed9cd3042078f9958eaabe9621d84d03832a5adabd6cad7"
     },
     {
       "schema_version": "1.0.0",
