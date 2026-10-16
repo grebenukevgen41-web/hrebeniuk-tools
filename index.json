@@ -84,16 +84,16 @@
       "id": "thuma_fabric",
       "name": "Thuma Material",
       "tagline": "Thuma Material: fabric, wood and end-grain sliders",
-      "version": "1.31.5",
+      "version": "1.31.6",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "archive_url": "./thuma_fabric-1.31.5.zip",
-      "archive_size": 5647117,
-      "archive_hash": "sha256:878de31fbd81b545aed9cd3042078f9958eaabe9621d84d03832a5adabd6cad7"
+      "archive_url": "./thuma_fabric-1.31.6.zip",
+      "archive_size": 5647701,
+      "archive_hash": "sha256:19e7dc67dd03108c53017689f4eade78a1b1df4ad1a448b104dc4a4b18b08976"
     },
     {
       "schema_version": "1.0.0",
