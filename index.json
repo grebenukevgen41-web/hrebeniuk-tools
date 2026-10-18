@@ -26,7 +26,7 @@
       "id": "custom_frame_render",
       "name": "Custom Frame Render",
       "tagline": "Render chosen frames with names from a table",
-      "version": "1.10.1",
+      "version": "1.10.2",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -37,9 +37,9 @@
         "files": "Save rendered images",
         "network": "Read frame names from Google Sheets"
       },
-      "archive_url": "./custom_frame_render-1.10.1.zip",
-      "archive_size": 15326,
-      "archive_hash": "sha256:7ef3b6424be61637b8341ed45d9a8c898ecf879f6ba0e0eaeb53952b7326698b"
+      "archive_url": "./custom_frame_render-1.10.2.zip",
+      "archive_size": 15764,
+      "archive_hash": "sha256:c04f2787f357349c825f4b24f832a5444f2b5960d65344596ade7dee150ba009"
     },
     {
       "schema_version": "1.0.0",
@@ -84,16 +84,16 @@
       "id": "thuma_fabric",
       "name": "Thuma Material",
       "tagline": "Thuma Material: fabric, wood and end-grain sliders",
-      "version": "1.33.2",
+      "version": "1.33.3",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "archive_url": "./thuma_fabric-1.33.2.zip",
-      "archive_size": 5661230,
-      "archive_hash": "sha256:7a9a3f13bf3fd9daaa2d832f57f8f6172391a02a02cbe260b995bbfb602a34d5"
+      "archive_url": "./thuma_fabric-1.33.3.zip",
+      "archive_size": 5661938,
+      "archive_hash": "sha256:64e3b97b9ccaf18c9d4faf9ee20f93eabc8c1a8cd2bae330f053515933197468"
     },
     {
       "schema_version": "1.0.0",
