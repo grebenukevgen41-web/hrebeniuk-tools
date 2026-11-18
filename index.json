@@ -26,7 +26,7 @@
       "id": "custom_frame_render",
       "name": "Custom Frame Render",
       "tagline": "Render chosen frames with names from a table",
-      "version": "1.11.0",
+      "version": "1.13.0",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -37,9 +37,9 @@
         "files": "Save rendered images",
         "network": "Read frame names from Google Sheets"
       },
-      "archive_url": "./custom_frame_render-1.11.0.zip",
-      "archive_size": 16486,
-      "archive_hash": "sha256:cc7a210b923902925b8d49c6b9180a6f5ead5c5833bbb0f22171296535210e52"
+      "archive_url": "./custom_frame_render-1.13.0.zip",
+      "archive_size": 19536,
+      "archive_hash": "sha256:eac16888af29462c440fd98e9ecf7d5a3147867dfb605d1391d15691733080ff"
     },
     {
       "schema_version": "1.0.0",
@@ -100,7 +100,7 @@
       "id": "wirecolor_mask_addon",
       "name": "WireColor Masks",
       "tagline": "Object, face and material ID masks",
-      "version": "3.9.0",
+      "version": "3.10.2",
       "type": "add-on",
       "maintainer": "Hrebeniuk Tools",
       "license": [
@@ -110,9 +110,9 @@
       "permissions": {
         "files": "Save rendered mask images"
       },
-      "archive_url": "./wirecolor_mask_addon-3.9.0.zip",
-      "archive_size": 15382,
-      "archive_hash": "sha256:ca97f5d8837bd92e9a7093f69cdc60ab90132ff56e030ff93f21aa7ec0abbdac"
+      "archive_url": "./wirecolor_mask_addon-3.10.2.zip",
+      "archive_size": 41359,
+      "archive_hash": "sha256:0373e708230f8cf7b2d39e489fa295a081dc768cb7bbfd42535ee77979c3ff4d"
     }
   ]
 }
